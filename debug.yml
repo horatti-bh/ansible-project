@@ -1,0 +1,6 @@
+- name: Error
+  hosts: all
+  tasks:
+    - name: print the message 
+      debug:
+        msg: message
