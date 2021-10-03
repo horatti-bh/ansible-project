@@ -5,5 +5,5 @@
       debug:
         msg: message
     - name: test more on print
-        debug:
-          msg: Yeah
+      debug:
+        msg: Yeah
