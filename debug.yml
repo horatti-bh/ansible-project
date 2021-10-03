@@ -4,3 +4,6 @@
     - name: print the message 
       debug:
         msg: message
+    - name: test more on print
+        debug:
+          msg: Yeah
