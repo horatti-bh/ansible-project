@@ -7,5 +7,5 @@
   hosts: all
   tasks:
     - name: check ping
-      ping: 
-      shell: ll      
+ #     ping: 
+      shell: ls -ltra      
