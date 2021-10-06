@@ -1,5 +1,5 @@
 - name: var test
-  hosts: /root/host
+  hosts: all
   vars:
     URL: google.com
   tasks:
