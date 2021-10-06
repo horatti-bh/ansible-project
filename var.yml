@@ -6,4 +6,6 @@
     - name: print vars
       debug:
         msg: "{{URL}}"
+        vars:
+          URL: task.com
  
