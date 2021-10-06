@@ -1,0 +1,9 @@
+- name: var test
+  hosts: /root/host
+  vars:
+    URL: google.com
+  tasks:
+    - name: print vars
+      debug:
+        msg: chrome = {{URL}}
+ 
