@@ -10,7 +10,7 @@
         msg: "{{URL}}"
     - name: from task level
       debug:
-        msg: "{{URL}}"      
+        msg: "{{URL1}}"      
       vars:
         URL: task.com
  
