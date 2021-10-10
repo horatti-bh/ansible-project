@@ -7,3 +7,10 @@
   yum:
     name: mongodb-org
     state: present
+    
+- name: start & enable MongoDB service
+  system:
+    name: mongod
+    state: started
+    enabled: yes
+    
