@@ -1,5 +1,6 @@
 - name: var test
   hosts: all
+  gather_facts: no
   vars:
     URL: google.com
   vars_files:
@@ -18,6 +19,7 @@
     
 - name: overwritten 
   hosts: all 
+  gather_facts: no
   tasks:
     - name: list directories 
       shell: ls -ltra
@@ -29,6 +31,7 @@
         
 - name: checked facts
   hosts: all
+  gather_facts: no
   tasks:    
     - name: print host
       debug:
