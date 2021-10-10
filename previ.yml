@@ -14,11 +14,11 @@
     - name: say hello to from task1
       debug:
         msg: hey Hi
-      whem: true  
+      when: true  
         
     - name: say hello to from task2
       debug:
         msg: hey Hi  
-       when: true       
+      when: false       
         
         
