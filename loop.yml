@@ -3,7 +3,7 @@
   tasks:
     - name: loop check
       debug:
-        name: "{{item}}"
+        msg: "{{item}}"
       loop:
         - abc
         - def
