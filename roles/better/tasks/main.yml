@@ -4,4 +4,4 @@
     
 - name: check from roles
   debug:
-    msg: "URL = {{URL}}"  
+    msg: "{{URL}}"  
