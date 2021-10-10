@@ -1,6 +1,7 @@
 - name: check privilege 
   hosts: all
   tasks:
+  become: yes
     - name: install nginx
       yum:
         name: nginx
