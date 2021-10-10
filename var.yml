@@ -31,6 +31,7 @@
         
 - name: checked facts
   hosts: all
+  gather_facts: yes
   tasks:    
     - name: print host
       debug:
