@@ -2,6 +2,6 @@
   debug:
     msg: hello 
     
-- name: check url from roles
+- name: check from roles
   debug:
     msg: "URL = {{URL}}"  
