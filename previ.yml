@@ -19,6 +19,6 @@
     - name: say hello to from task2
       debug:
         msg: hey Hi  
-       when: false        
+       when: true       
         
         
