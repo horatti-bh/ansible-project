@@ -3,7 +3,7 @@
     src: mongodb.repo
     dest: /etc/yum.repos.d/mongodb.repo
     
- - name: Install mongodb
-   yum:
-     name: mongodb-org
-     state: latest
+- name: Install mongodb
+  yum:
+    name: mongodb-org
+    state: latest
