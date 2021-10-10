@@ -1,0 +1,3 @@
+- name: test from role
+  debug:
+    msg: hello 
