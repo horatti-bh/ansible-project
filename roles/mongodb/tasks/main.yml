@@ -9,7 +9,7 @@
     state: present
     
 - name: start & enable MongoDB service
-  system:
+  systemd:
     name: mongod
     state: started
     enabled: yes
