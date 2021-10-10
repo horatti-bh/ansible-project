@@ -12,11 +12,11 @@
   hosts: all
   tasks:
     - name: say hello to from task1
-      debus:
+      debug:
         msg: hey Hi
         
     - name: say hello to from task2
-      debus:
+      debug:
         msg: hey Hi        
         
         
