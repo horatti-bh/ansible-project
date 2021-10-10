@@ -1,0 +1,13 @@
+- name: loo test
+  hosts: all
+  tasks:
+    - name: loop check
+      debug:
+        name: "{{item}}"
+      loop:
+        - abc
+        - def
+        - ghi
+        - jkl
+      
+     
