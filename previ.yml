@@ -7,3 +7,16 @@
         name: nginx
         state: latest
       become: yes  
+      
+- name: check conditional status
+  hosts: all
+  tasks:
+    - name: say hello to from task1
+      debus:
+        msg: hey Hi
+        
+    - name: say hello to from task2
+      debus:
+        msg: hey Hi        
+        
+        
