@@ -26,5 +26,12 @@
     - name: show the output
       debug: 
         msg: "{{list.stdout}}"
+        
+- name: checked facts
+  hosts: all
+  tasks:    
+    - name: print host
+      debug:
+        msg: "{{ansible_fqdn}}"
  
  
