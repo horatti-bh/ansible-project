@@ -21,6 +21,10 @@
   tasks:
     - name: list directories 
       shell: ls -ltra
+      register: list
       
+    - name: show the output
+      debug: 
+        msg: "{{list}}"
  
  
