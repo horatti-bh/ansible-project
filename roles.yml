@@ -1,0 +1,6 @@
+- name: test from role
+  hosts: all
+  roles:
+    - better
+  tasks:
+    
