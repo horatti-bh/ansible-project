@@ -1,3 +1,7 @@
 - name: test from role
   debug:
     msg: hello 
+    
+- name: check url from roles
+  debug:
+    msg: "{{URL}}"  
