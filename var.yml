@@ -18,9 +18,9 @@
     
 - name: overwritten 
   hosts: all 
-    tasks:
-      - name: list directories 
-        shell: ls -ltra
+  tasks:
+    - name: list directories 
+      shell: ls -ltra
       
  
  
