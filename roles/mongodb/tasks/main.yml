@@ -14,4 +14,9 @@
     state: started
     enabled: yes
 
+- name: download schema
+  include_role:
+    name: common
+    tasks_from: download.yml
+
     
