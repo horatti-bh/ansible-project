@@ -1,3 +1,9 @@
+- name: Install pip
+  yum:
+    name: python-pip
+    update_cache: yes
+    state: present
+
 - name: Install boto3
   pip:
     name: boto3
