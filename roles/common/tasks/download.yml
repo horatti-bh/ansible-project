@@ -9,6 +9,8 @@
     name: boto3
 
 - name: download package
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
   aws_s3:
     bucket: "{{S3_BUCKET}}"
     object: "{{APP_NAME}}.zip"
