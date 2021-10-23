@@ -6,7 +6,11 @@
   pip:
     name: botocore
     executable: pip-3.3
-
+- name: Install boto3
+  pip:
+    virtualenv: /tmp/py3
+    virtualenv_command: /usr/bin/python3 -m venv
+    name: boto
 
 - name: download package
 #  vars:
