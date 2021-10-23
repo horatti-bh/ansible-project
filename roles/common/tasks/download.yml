@@ -5,6 +5,7 @@
 - name: Install boto3
   pip:
     name: botocore
+    executable: pip-3.3
 
 
 - name: download package
