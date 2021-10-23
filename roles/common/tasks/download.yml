@@ -5,7 +5,7 @@
 - name: Install boto3
   pip:
     virtualenv: /tmp/py3
-    virtualenv_command: /usr/bin/python3 -m venv
+    virtualenv_command: /bin/python -m venv
     name: boto
 
 - name: download package
