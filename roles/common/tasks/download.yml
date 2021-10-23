@@ -5,6 +5,6 @@
 - name: download package
   aws_s3:
     bucket: "{{S3_BUCKET}}"
-    object: "{{APP_NAME}}.zip"
-    dest: "/tmp/{{APP_NAME}}.zip"
+    object: "{{S3_DIRECTORY}}/{{APP_NAME}}.tar.gz"
+    dest: "/tmp/{{APP_NAME}}.tar.gz"
     mode: get

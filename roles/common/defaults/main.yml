@@ -1,1 +1,2 @@
-S3_BUCKET: robodhop-projevt
+S3_BUCKET: roboshop-package
+S3_DIRECTORY: app-artifacts
