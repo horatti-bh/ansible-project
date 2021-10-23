@@ -4,6 +4,8 @@
 
 - name: download package
   aws_s3:
+  vars:
+    ansible_python_interpreter: /bin/python
     bucket: "{{S3_BUCKET}}"
     object: "{{S3_DIRECTORY}}/{{APP_NAME}}.tar.gz"
     dest: "/tmp/{{APP_NAME}}.tar.gz"
