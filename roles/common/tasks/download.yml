@@ -8,8 +8,8 @@
 
 
 - name: download package
-#  vars:
-#    ansible_python_interpreter: /bin/python
+  vars:
+    ansible_python_interpreter: /bin/python
   aws_s3:
     bucket: "{{S3_BUCKET}}"
     object: "{{S3_DIRECTORY}}/{{APP_NAME}}.tar.gz"
