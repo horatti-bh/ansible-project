@@ -42,13 +42,6 @@
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
     </task>
-    <task id="LOCAL-00001" summary="debug">
-      <created>1633271742924</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1633271742924</updated>
-    </task>
     <task id="LOCAL-00002" summary="test in intellij">
       <created>1633879064385</created>
       <option name="number" value="00002" />
@@ -378,7 +371,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635072506425</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="boto3 script has been updated">
+      <created>1635073680239</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1635073680239</updated>
+    </task>
+    <task id="LOCAL-00050" summary="boto3 script has been updated">
+      <created>1635073754105</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1635073754105</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
