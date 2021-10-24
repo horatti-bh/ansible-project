@@ -4,7 +4,7 @@
     dest: /tmp/ansible-project
     clone: yes
     update: yes
-    single_branch: yes
+#    single_branch: yes
     version: Packages
 
 #- name: Install or update pip
