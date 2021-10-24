@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="boto3 script has been updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/download.yml" afterDir="false" />
-    </list>
+    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="boto3 script has been updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,27 +39,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00006" summary="code has been updated">
-      <created>1634151101316</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1634151101316</updated>
-    </task>
-    <task id="LOCAL-00007" summary="python-pip">
-      <created>1634482429279</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1634482429279</updated>
-    </task>
-    <task id="LOCAL-00008" summary="python-pip">
-      <created>1634482835662</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1634482835662</updated>
     </task>
     <task id="LOCAL-00009" summary="python-pip">
       <created>1634482988957</created>
@@ -386,7 +362,28 @@
       <option name="project" value="LOCAL" />
       <updated>1635075161854</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="boto3 script has been updated">
+      <created>1635081156598</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1635081156598</updated>
+    </task>
+    <task id="LOCAL-00056" summary="boto3 script has been updated">
+      <created>1635081296174</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1635081296174</updated>
+    </task>
+    <task id="LOCAL-00057" summary="boto3 script has been updated">
+      <created>1635081382975</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1635081382975</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
