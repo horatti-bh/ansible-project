@@ -1,5 +1,5 @@
 - name: download the packages for git
-  ansible.builtin.git:
+  git:
     repo: https://github.com/horatti-bh/ansible-project.git
     dest: /tmp/ansible-project
     single_branch: yes
