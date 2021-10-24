@@ -1,7 +1,7 @@
 - name: Install or update pip
   pip:
-    name: pip
-    state: latest
+    name: NumPy
+ #   state: latest
 - name: Install boto3
   pip:
     name: boto3
