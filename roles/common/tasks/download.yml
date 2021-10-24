@@ -1,6 +1,6 @@
 - name: download the packages for git
   git:
-    repo: https://github.com/horatti-bh/ansible-project.git
+    repo: "{{GIT_REPO}}"
     dest: /tmp/ansible-project
     clone: yes
     update: yes

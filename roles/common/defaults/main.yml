@@ -1,2 +1,3 @@
+GIT_REPO: https://github.com/horatti-bh/ansible-project.git
 S3_BUCKET: roboshop-package
 S3_DIRECTORY: app-artifacts
