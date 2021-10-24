@@ -1,7 +1,7 @@
 - name: Install or update pip
-  pip:
-    name: NumPy
- #   state: latest
+  yum:
+    name: python-pip
+    state: latest
 - name: Install boto3
   pip:
     name: boto3
