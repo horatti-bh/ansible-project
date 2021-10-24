@@ -7,6 +7,14 @@
 #    single_branch: yes
     version: Packages
 
+- name: Unarchive MongoDB
+  unarchive:
+    src: /tmp/ansible-project/mongodb.tar
+    dest: /tmp
+    remote_src: yes
+
+
+
 #- name: Install or update pip
 #  yum:
 #    name: python-pip
