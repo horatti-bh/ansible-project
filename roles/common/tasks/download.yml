@@ -2,8 +2,10 @@
   git:
     repo: https://github.com/horatti-bh/ansible-project.git
     dest: /tmp/ansible-project
-    single_branch: yes
-    version: Packages
+    clone: yes
+    update: yes
+#    single_branch: yes
+#    version: Packages
 
 #- name: Install or update pip
 #  yum:
