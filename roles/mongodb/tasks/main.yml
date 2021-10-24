@@ -25,5 +25,11 @@
     dest: /tmp
     remote_src: yes
 
+- name: load schema
+  shell: mango < {{item}}
+  loop:
+    - /tmp/catalogue.js
+    - /tmp/users.js
+
 
     
