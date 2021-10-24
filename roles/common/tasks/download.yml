@@ -1,10 +1,10 @@
-- name: Install or update pip
-  yum:
-    name: python-pip
-    state: latest
-- name: Install boto3
-  pip:
-    name: boto3
+#- name: Install or update pip
+#  yum:
+#    name: python-pip
+#    state: latest
+#- name: Install boto3
+#  pip:
+#    name: boto3
 
 #- name: Install boto3
 #  pip:
