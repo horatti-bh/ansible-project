@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="boto3 script has been updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/download.yml" afterDir="false" />
-    </list>
+    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="boto3 script has been updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -330,7 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635070800342</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="boto3 script has been updated">
+      <created>1635071385565</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1635071385565</updated>
+    </task>
+    <task id="LOCAL-00043" summary="boto3 script has been updated">
+      <created>1635071625367</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1635071625367</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
