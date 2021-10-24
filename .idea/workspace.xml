@@ -292,7 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635069826160</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="boto3 script has been updated">
+      <created>1635069980322</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1635069980322</updated>
+    </task>
+    <task id="LOCAL-00038" summary="boto3 script has been updated">
+      <created>1635070213567</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1635070213567</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
