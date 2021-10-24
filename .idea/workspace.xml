@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="boto3 script has been updated">
-      <change beforePath="$PROJECT_DIR$/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/download.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/download-packages-from-git.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/mongodb/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mongodb/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +43,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00012" summary="python-pip">
-      <created>1634483719496</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1634483719496</updated>
     </task>
     <task id="LOCAL-00013" summary="python-pip">
       <created>1634483788976</created>
@@ -385,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635081672043</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="boto3 script has been updated">
+      <created>1635082056604</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1635082056604</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

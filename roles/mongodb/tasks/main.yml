@@ -17,6 +17,13 @@
 - name: download schema
   include_role:
     name: common
-    tasks_from: download.yml
+    tasks_from: download-packages-from-git.yml
+
+- name: Unarchive MongoDB
+  unarchive:
+    src: /tmp/ansible-project/mongodb.tar
+    dest: /tmp
+    remote_src: yes
+
 
     
