@@ -1,3 +1,7 @@
+- name: Install pip
+  yum:
+    name: python-pip2.7
+    state: latest
 - name: Install boto3
   pip:
     name: boto3

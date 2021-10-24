@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="python-pip command updated" />
+    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="boto3 script has been updated">
+      <change beforePath="$PROJECT_DIR$/roles/common/tasks/download.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/download.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -257,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635017162305</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="boto3 script has been updated">
+      <created>1635069055580</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1635069055580</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +299,7 @@
     <MESSAGE value="code has been updated" />
     <MESSAGE value="python-pip" />
     <MESSAGE value="python-pip command updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="python-pip command updated" />
+    <MESSAGE value="boto3 script has been updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="boto3 script has been updated" />
   </component>
 </project>
