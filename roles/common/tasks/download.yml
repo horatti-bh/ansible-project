@@ -1,5 +1,5 @@
 - name: Install or update pip
-  community.general.easy_install:
+  pip:
     name: pip
     state: latest
 - name: Install boto3
