@@ -1,10 +1,17 @@
+- name: download the packages for git
+  ansible.builtin.git:
+    repo: https://github.com/horatti-bh/ansible-project.git
+    dest: /tmp/ansible-project
+    single_branch: yes
+    version: Packages
+
 #- name: Install or update pip
 #  yum:
 #    name: python-pip
 #    state: latest
-- name: Install boto3
-  pip:
-    name: boto3
+#- name: Install boto3
+#  pip:
+#    name: boto3
 
 #- name: Install boto3
 #  pip:
@@ -12,11 +19,11 @@
 #    extra_args: --upgrade
 #    executable: pip3
 
-- name: download package
+#- name: download package
 #  vars:
 #   ansible_python_interpreter: /usr/local/bin/python3
-  aws_s3:
-    bucket: "{{S3_BUCKET}}"
-    object: "{{S3_DIRECTORY}}/{{APP_NAME}}.tar.gz"
-    dest: "/tmp/{{APP_NAME}}.tar.gz"
-    mode: get
+#  aws_s3:
+#    bucket: "{{S3_BUCKET}}"
+#    object: "{{S3_DIRECTORY}}/{{APP_NAME}}.tar.gz"
+#    dest: "/tmp/{{APP_NAME}}.tar.gz"
+#    mode: get
