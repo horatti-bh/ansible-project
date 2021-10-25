@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="boto3 script has been updated">
+    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="tags added">
       <change beforePath="$PROJECT_DIR$/setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/setup.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +41,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00020" summary="python-pip command updated">
-      <created>1635008734339</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1635008734339</updated>
     </task>
     <task id="LOCAL-00021" summary="python-pip command updated">
       <created>1635009168211</created>
@@ -385,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635173396862</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="tags added">
+      <created>1635173952183</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1635173952183</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,6 +419,7 @@
     <MESSAGE value="python-pip" />
     <MESSAGE value="python-pip command updated" />
     <MESSAGE value="boto3 script has been updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="boto3 script has been updated" />
+    <MESSAGE value="tags added" />
+    <option name="LAST_COMMIT_MESSAGE" value="tags added" />
   </component>
 </project>

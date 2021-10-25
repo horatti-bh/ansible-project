@@ -6,12 +6,12 @@
 #    - redis
   tasks:
     - name: Run mongoDB
-      include_role:
+      import_role:
         name: mongodb
       tags: [mangodb]
 
     - name: Run redis
-      include_role:
+      import_role:
         name: redis
       tags: [redis]
 
