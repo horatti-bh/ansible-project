@@ -1,4 +1,4 @@
-- name: download the packages for git
+- name: download the packages from git
   git:
     repo: "{{GIT_REPO}}"
     dest: /tmp/ansible-project
