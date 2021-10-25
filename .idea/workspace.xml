@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="boto3 script has been updated">
-      <change afterPath="$PROJECT_DIR$/roles/redis/defaults/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/redis/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/redis/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/setup.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +41,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00019" summary="python-pip command updated">
-      <created>1635007848997</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1635007848997</updated>
     </task>
     <task id="LOCAL-00020" summary="python-pip command updated">
       <created>1635008734339</created>
@@ -389,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635172543239</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="boto3 script has been updated">
+      <created>1635173396862</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1635173396862</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
