@@ -1,7 +1,7 @@
 - name: download the packages from git
   git:
     repo: "{{GIT_REPO}}"
-    dest: /tmp/ansible-project
+    dest: /tmp/
     clone: yes
     update: yes
 #    single_branch: yes
