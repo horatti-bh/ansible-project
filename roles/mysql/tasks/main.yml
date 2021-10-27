@@ -39,17 +39,24 @@
   shell: cat /var/log/mysqld.log | grep ' A temporary password' | awk '{print $NF}'
   register: mysql_password
 
-- name: Instal MYSQL python
-  pip:
-    name: MySQL-python
-    state: present
+- name: Rest root password
+  lineinfile:
+    path: /tmp/root-schema.sql
+    line: "ALTER USER 'root'@'localhost' IDENTIFIED BY 'dJYk&%*!K';"
+     create: yes
 
-- name: reset MYSQL password
-  mysql_user:
-    name: root
-    password: "dJYk&%*!K"
-    check_implicit_admin: yes
-    login_user: root
-    login_password: "{{mysql_password.stdout}}"
-    state: present
+#- name: Instal MYSQL python
+#  pip:
+#    name: MySQL-python
+#    state: present
+
+#- name: reset MYSQL password
+#  shell:
+  #mysql_user:
+  #  name: root
+  #  password: "dJYk&%*!K"
+  #  check_implicit_admin: yes
+  #  login_user: root
+  #  login_password: "{{mysql_password.stdout}}"
+  #  state: present
 
