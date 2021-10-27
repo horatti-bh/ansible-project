@@ -1,0 +1,62 @@
+- name: Gather the packages
+  package_facts:
+    manager: auto
+
+- name: remove few existing DB's
+  yum:
+    name: mariadb-libs
+    state: absent
+
+- name: Download the mysql
+  unarchive:
+    src: "{{MYSQL_URL}}"
+    dest: /tmp
+    remote_src: yes
+  when: "'mysql-community-server' not in ansible_facts.packages"
+
+- name: Install the MYSQL packages
+  yum:
+    name: "{{packages}}"
+    state: present
+  vars:
+    packages:
+      - /tmp/mysql-community-client-5.7.28-1.el7.x86_64.rpm
+      - /tmp/mysql-community-common-5.7.28-1.el7.x86_64.rpm
+      - /tmp/mysql-community-libs-5.7.28-1.el7.x86_64.rpm
+      - /tmp/mysql-community-server-5.7.28-1.el7.x86_64.rpm
+      - /tmp/mysql-community-devel-5.7.28-1.el7.x86_64.rpm
+      - gcc
+      - python-devel
+#  when: "'mysql-community-server' not in ansible_facts.packages"
+
+- name: start MYSQL service
+  systemd:
+    name: mysqld
+    state: started
+    enabled: yes
+
+- name: Check root temp password
+  shell: cat /var/log/mysqld.log | grep ' A temporary password' | awk '{print $NF}'
+  register: mysql_password
+
+- name: Rest root password
+  lineinfile:
+    path: /tmp/root-schema.sql
+    line: "ALTER USER 'root'@'localhost' IDENTIFIED BY 'dJYk&%*!K';"
+    create: yes
+
+#- name: Instal MYSQL python
+#  pip:
+#    name: MySQL-python
+#    state: present
+
+#- name: reset MYSQL password
+#  shell:
+  #mysql_user:
+  #  name: root
+  #  password: "dJYk&%*!K"
+  #  check_implicit_admin: yes
+  #  login_user: root
+  #  login_password: "{{mysql_password.stdout}}"
+  #  state: present
+
