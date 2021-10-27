@@ -1,3 +1,8 @@
+- name: Install git
+  yum:
+    name: git
+    state: preset
+
 - name: copy Mongodb repo file
   copy:
     src: mongodb.repo
