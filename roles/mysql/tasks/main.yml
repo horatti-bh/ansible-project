@@ -38,7 +38,7 @@
 
 - name: Instal MYSQL python
   pip:
-    name: MYSQL-python
+    name: MySQL-python
 
 - name: reset MYSQL password
   mysql_user:
