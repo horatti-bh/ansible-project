@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="tags added">
-      <change afterPath="$PROJECT_DIR$/roles/mysql/defaults/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/mysql/vars/main.yml" afterDir="false" />
+    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="MYSQL packages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +41,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00022" summary="python-pip command updated">
-      <created>1635009269639</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1635009269639</updated>
     </task>
     <task id="LOCAL-00023" summary="python-pip command updated">
       <created>1635009464904</created>
@@ -388,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635174458950</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="MYSQL packages">
+      <created>1635333836558</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1635333836559</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,6 +420,7 @@
     <MESSAGE value="python-pip command updated" />
     <MESSAGE value="boto3 script has been updated" />
     <MESSAGE value="tags added" />
-    <option name="LAST_COMMIT_MESSAGE" value="tags added" />
+    <MESSAGE value="MYSQL packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="MYSQL packages" />
   </component>
 </project>
