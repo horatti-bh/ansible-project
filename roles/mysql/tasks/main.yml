@@ -1,0 +1,21 @@
+- name: Gather the packages
+  package_facts:
+    manager: auto
+
+- name: Download the mysql
+  unarchive:
+    src: "{{MYSQL_URL}}"
+    dest: /tmp
+    remote_src: yes
+  when: "'mysql-community-server' in ansible_facts.packages"
+
+- name: Install the MYSQL packages
+  yum:
+    name: /tmp/{{item}}
+    state: present
+  loop:
+    - mysql-community-client-5.7.28-1.el7.x86_64.rpm
+    - mysql-community-common-5.7.28-1.el7.x86_64.rpm
+    - mysql-community-libs-5.7.28-1.el7.x86_64.rpm
+    - mysql-community-server-5.7.28-1.el7.x86_64.rpm
+
