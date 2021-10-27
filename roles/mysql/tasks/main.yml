@@ -36,6 +36,10 @@
   shell: cat /var/log/mysqld.log | grep ' A temporary password' | awk '{print $NF}'
   register: mysql_password
 
+- name: Instal MYSQL python
+  pip:
+    name: MYSQL-python
+
 - name: reset MYSQL password
   mysql_user:
     name: root
