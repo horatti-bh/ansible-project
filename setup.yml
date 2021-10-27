@@ -15,3 +15,7 @@
         name: redis
       tags: [redis]
 
+    - name: Run mysql
+      import_role:
+        name: mysql
+      tags: [mysql]
