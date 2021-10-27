@@ -12,7 +12,7 @@
     src: "{{MYSQL_URL}}"
     dest: /tmp
     remote_src: yes
-  when: "mysql-community-server' not in ansible_facts.packages"
+ # when: "mysql-community-server' not in ansible_facts.packages"
 
 - name: Install the MYSQL packages
   yum:
