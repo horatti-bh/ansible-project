@@ -26,6 +26,7 @@
       - /tmp/mysql-community-server-5.7.28-1.el7.x86_64.rpm
       - /tmp/mysql-community-devel-5.7.28-1.el7.x86_64.rpm
       - gcc
+      - python-devel
 #  when: "'mysql-community-server' not in ansible_facts.packages"
 
 - name: start MYSQL service
