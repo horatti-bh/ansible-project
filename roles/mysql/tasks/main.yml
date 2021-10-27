@@ -43,7 +43,7 @@
   lineinfile:
     path: /tmp/root-schema.sql
     line: "ALTER USER 'root'@'localhost' IDENTIFIED BY 'dJYk&%*!K';"
-     create: yes
+    create: yes
 
 #- name: Instal MYSQL python
 #  pip:
