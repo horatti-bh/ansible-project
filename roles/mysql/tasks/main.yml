@@ -16,13 +16,14 @@
 
 - name: Install the MYSQL packages
   yum:
-    name: /tmp/{{item}}
+    name: "{{packages}}"
     state: present
-  loop:
-    - mysql-community-client-5.7.28-1.el7.x86_64.rpm
-    - mysql-community-common-5.7.28-1.el7.x86_64.rpm
-    - mysql-community-libs-5.7.28-1.el7.x86_64.rpm
-    - mysql-community-server-5.7.28-1.el7.x86_64.rpm
+  vars:
+    packages:
+      - /tmp/mysql-community-client-5.7.28-1.el7.x86_64.rpm
+      - /tmp/mysql-community-common-5.7.28-1.el7.x86_64.rpm
+      - /tmp/mysql-community-libs-5.7.28-1.el7.x86_64.rpm
+      - /tmp/mysql-community-server-5.7.28-1.el7.x86_64.rpm
  # when: "mysql-community-server' not in ansible_facts.packages"
 
 - name: start MYSQL service
