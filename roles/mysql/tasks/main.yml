@@ -27,6 +27,6 @@
 
 - name: start MYSQL service
   systemd:
-    name: mysql
+    name: mysqld
     state: started
     enabled: yes
