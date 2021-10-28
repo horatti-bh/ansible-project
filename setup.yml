@@ -24,3 +24,8 @@
       import_role:
         name: rabbitmq
       tags: [rabbitmq]
+
+    - name: Run cart
+      import_role:
+        name: cart
+      tags: [cart]
