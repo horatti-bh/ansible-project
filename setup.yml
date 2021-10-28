@@ -19,3 +19,8 @@
       import_role:
         name: mysql
       tags: [mysql]
+
+    - name: Run rabbitmq
+      import_role:
+        name: rabbitmq
+      tags: [rabbitmq]

@@ -9,12 +9,10 @@
 
 
 
-
-
 - name: Install or update pip
   yum:
     name: python-pip
-    state: latest
+    state: installed
 - name: Install boto3
   pip:
     name: boto3
