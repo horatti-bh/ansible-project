@@ -16,7 +16,7 @@
 - name: Install or update pip
   yum:
     name: python-pip
-    state: installed
+    state: present
 - name: Install boto3
   pip:
     name: boto3
