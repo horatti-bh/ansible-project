@@ -7,9 +7,10 @@
 #    single_branch: yes
     version: Packages
 
-- name: Install bottle python package
+- name: "install boto3"
   pip:
-    name: bottle
+    name: boto3
+    executable: pip3
 - name: Install pip
   pip:
     name: pip
