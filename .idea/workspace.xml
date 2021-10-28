@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="MYSQL packages">
       <change beforePath="$PROJECT_DIR$/roles/common/tasks/download-packages-from-git.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/download-packages-from-git.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/rabbitmq/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/rabbitmq/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +47,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00059" summary="boto3 script has been updated">
-      <created>1635081526469</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1635081526469</updated>
-    </task>
-    <task id="LOCAL-00060" summary="boto3 script has been updated">
-      <created>1635081672043</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1635081672043</updated>
     </task>
     <task id="LOCAL-00061" summary="boto3 script has been updated">
       <created>1635082056604</created>
@@ -390,7 +377,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635437325421</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="MYSQL packages">
+      <created>1635437395928</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1635437395928</updated>
+    </task>
+    <task id="LOCAL-00109" summary="MYSQL packages">
+      <created>1635437451207</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1635437451207</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -4,7 +4,7 @@
     state: present
 
 - name: Setup YUM repositories for RabbitMQ
-  shell: curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh
+  shell: curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | bash
 
 - name: Install RabbitMQ
   yum:
@@ -14,6 +14,7 @@
 - name: start RabbitMQ service
   systemd:
     name: rabbitmq-server
-    state: started
     enabled: yes
+    state: started
+
 
