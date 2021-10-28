@@ -7,14 +7,14 @@
 #    single_branch: yes
     version: Packages
 
-- name: Install boto3
-  pip:
-    name: boto3
-
 - name: Install pip
   pip:
     name: pip
     state: present
+
+- name: Install boto3
+  pip:
+    name: boto3
 
 
 - name: Install or update pip
