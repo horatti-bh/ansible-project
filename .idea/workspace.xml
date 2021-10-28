@@ -47,27 +47,6 @@
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
     </task>
-    <task id="LOCAL-00052" summary="boto3 script has been updated">
-      <created>1635074451518</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1635074451518</updated>
-    </task>
-    <task id="LOCAL-00053" summary="boto3 script has been updated">
-      <created>1635074725399</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1635074725399</updated>
-    </task>
-    <task id="LOCAL-00054" summary="boto3 script has been updated">
-      <created>1635075161854</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1635075161854</updated>
-    </task>
     <task id="LOCAL-00055" summary="boto3 script has been updated">
       <created>1635081156598</created>
       <option name="number" value="00055" />
@@ -390,7 +369,28 @@
       <option name="project" value="LOCAL" />
       <updated>1635436636014</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="MYSQL packages">
+      <created>1635436694789</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1635436694789</updated>
+    </task>
+    <task id="LOCAL-00102" summary="MYSQL packages">
+      <created>1635436776073</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1635436776073</updated>
+    </task>
+    <task id="LOCAL-00103" summary="MYSQL packages">
+      <created>1635436923329</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1635436923330</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
