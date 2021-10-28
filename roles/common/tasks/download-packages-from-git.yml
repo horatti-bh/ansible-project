@@ -9,6 +9,10 @@
 
 - name: Install boto3
   pip:
+    name: boto3
+
+- name: Install pip
+  pip:
     name: pip
     state: present
 
