@@ -17,9 +17,9 @@
   yum:
     name: python-pip
     state: present
-- name: Install boto3
-  pip:
-    name: boto3
+#- name: Install boto3
+#  pip:
+#    name: boto3
 
 #- name: Install boto3
 #  pip:
