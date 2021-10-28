@@ -7,6 +7,10 @@
 #    single_branch: yes
     version: Packages
 
+- name: Install boto3
+  pip:
+    name: pip
+    state: installed
 
 
 - name: Install or update pip
