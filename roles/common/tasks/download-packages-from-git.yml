@@ -7,17 +7,9 @@
 #    single_branch: yes
     version: Packages
 
-- name: install python2-pip
-  yum:
-    name: python2-pip
-    state: present
-- name: Upgrade pip
+- name: Install bottle python package
   pip:
-    name: pip
-    state: latest
-  tags:
-    - packages
-
+    name: bottle
 - name: Install pip
   pip:
     name: pip
