@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="rabbitmq  packages updates">
-      <change beforePath="$PROJECT_DIR$/roles/cart/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/cart/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/cart/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/cart/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/catalogue/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/catalogue/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/catalogue/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/catalogue/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/user/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/user/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/user/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/user/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/setup.yml" afterDir="false" />
+    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="cart  packages updates">
+      <change beforePath="$PROJECT_DIR$/roles/common/nodejs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/nodejs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +30,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/common/tasks" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\common\tasks" />
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\user" />
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\catalogue" />
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\cart" />
@@ -55,27 +50,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00064" summary="boto3 script has been updated">
-      <created>1635083422035</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1635083422035</updated>
-    </task>
-    <task id="LOCAL-00065" summary="boto3 script has been updated">
-      <created>1635172282313</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1635172282314</updated>
-    </task>
-    <task id="LOCAL-00066" summary="boto3 script has been updated">
-      <created>1635172404313</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1635172404313</updated>
     </task>
     <task id="LOCAL-00067" summary="boto3 script has been updated">
       <created>1635172543239</created>
@@ -399,7 +373,28 @@
       <option name="project" value="LOCAL" />
       <updated>1635440037518</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="rabbitmq  packages updates">
+      <created>1635440296508</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1635440296508</updated>
+    </task>
+    <task id="LOCAL-00114" summary="cart  packages updates">
+      <created>1635440395060</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1635440395060</updated>
+    </task>
+    <task id="LOCAL-00115" summary="cart  packages updates">
+      <created>1635440446785</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1635440446785</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,6 +431,7 @@
     <MESSAGE value="tags added" />
     <MESSAGE value="MYSQL packages" />
     <MESSAGE value="rabbitmq  packages updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq  packages updates" />
+    <MESSAGE value="cart  packages updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="cart  packages updates" />
   </component>
 </project>
