@@ -10,7 +10,7 @@
 - name: Install boto3
   pip:
     name: pip
-    state: installed
+    state: present
 
 
 - name: Install or update pip
