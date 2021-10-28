@@ -1,0 +1,10 @@
+- name: Install gcc
+  yum:
+    name: gcc-c++
+    state: present
+
+- name: Download the NodeJS
+  unarchive:
+    src: "{{NODEJS_URL}}"
+    dest: /opt
+    remote_src: yes
