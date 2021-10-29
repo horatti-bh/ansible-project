@@ -30,3 +30,11 @@
   npm:
     path: /home/{{APP_USER}}/{{APP_NAME}}
   become_user: "{{APP_USER}}"
+
+- name: start cart service
+  systmed:
+    name: "{{APP_NAME}}"
+    state: started
+    enabled: yes
+
+

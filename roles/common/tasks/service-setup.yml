@@ -1,0 +1,8 @@
+- name: copy cart start service details
+  copy:
+    src: cart.service
+    dest: /etc/systemd/system/cart.service
+
+- name: load systemd
+  systemd:
+    daemon_reload: yes
