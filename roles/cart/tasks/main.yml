@@ -3,5 +3,20 @@
     name: common
     tasks_from: nodejs
 
+- name: Install NodeJs
+  include_role:
+    name: common
+    tasks_from: user.yml
 
+- name: download schema
+  include_role:
+    name: common
+    tasks_from: download-packages-from-git.yml
+  vars:
+    APP_NAME: cart
 
+- name: Unarchive MongoDB
+  unarchive:
+    src: /tmp/ansible-project/{{APP_NAME}}.tar
+    dest: /tmp
+    remote_src: yes

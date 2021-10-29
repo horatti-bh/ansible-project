@@ -1,0 +1,3 @@
+- name: Crete command project user
+  user:
+    name: "{{APP_USER}}"
