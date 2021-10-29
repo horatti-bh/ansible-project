@@ -23,5 +23,5 @@
 
 - name: create cart directory
   file:
-    path: /home/cart
+    path: /opt/cart
     state: directory
