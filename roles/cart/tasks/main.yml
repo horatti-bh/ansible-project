@@ -31,6 +31,11 @@
     path: /home/{{APP_USER}}/{{APP_NAME}}
   become_user: "{{APP_USER}}"
 
+- name: Install NodeJs
+  include_role:
+    name: common
+    tasks_from: service-setup.yml
+
 - name: start cart service
   systmed:
     name: "{{APP_NAME}}"
