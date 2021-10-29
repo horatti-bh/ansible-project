@@ -25,3 +25,14 @@
     dest: /opt/nodejs
     state: link
 
+- name: Create links to default bin
+  file:
+    src: /opt/nodejs/bin/{{item}}
+    dest: /bin/{{item}}
+    state: link
+  loop:
+    - node
+    - npm
+    - npm
+
+
