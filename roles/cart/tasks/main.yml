@@ -13,14 +13,15 @@
     name: common
     tasks_from: download-packages-from-git.yml
 
-- name: Unarchive MongoDB
-  unarchive:
-    src: /tmp/ansible-project/{{APP_NAME}}.tar
-    dest: /tmp
-    remote_src: yes
-
 - name: create cart directory
   file:
     path: /home/{{APP_USER}}/{{APP_NAME}}
     state: directory
+  become_user: "{{APP_USER}}"
+
+- name: Unarchive MongoDB
+  unarchive:
+    src: /tmp/ansible-project/{{APP_NAME}}.tar
+    dest: /home/{{APP_USER}}/{{APP_NAME}}
+    remote_src: yes
   become_user: "{{APP_USER}}"
