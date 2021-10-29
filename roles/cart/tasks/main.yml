@@ -34,7 +34,7 @@
 - name: Install NodeJs
   include_role:
     name: common
-    tasks_from: service-setup.yml
+    tasks_from: service-setup
 
 - name: start cart service
   systmed:
