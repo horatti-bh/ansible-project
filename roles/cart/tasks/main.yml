@@ -23,6 +23,6 @@
 
 - name: create cart directory
   file:
-    path: /opt/cart
+    path: /home/cart
     state: directory
   become_user: "{{APP_USER}}"
