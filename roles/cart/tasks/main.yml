@@ -25,3 +25,8 @@
     dest: /home/{{APP_USER}}/{{APP_NAME}}
     remote_src: yes
   become_user: "{{APP_USER}}"
+
+- name: Install NPM package(NodeJs dep)
+  npm:
+    path: /home/{{APP_USER}}/{{APP_NAME}}
+  become_user: "{{APP_USER}}"
