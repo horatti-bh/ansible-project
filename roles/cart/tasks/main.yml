@@ -20,3 +20,8 @@
     src: /tmp/ansible-project/{{APP_NAME}}.tar
     dest: /tmp
     remote_src: yes
+
+- name: create cart directory
+  file:
+    path: /home/cart
+    state: directory
