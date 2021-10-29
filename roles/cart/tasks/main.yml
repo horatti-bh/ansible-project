@@ -12,8 +12,6 @@
   include_role:
     name: common
     tasks_from: download-packages-from-git.yml
-  vars:
-    APP_NAME: cart
 
 - name: Unarchive MongoDB
   unarchive:
@@ -23,6 +21,6 @@
 
 - name: create cart directory
   file:
-    path: /home/project7/cart
+    path: /home/{{APP_USER}}/{{APP_NAME}}
     state: directory
   become_user: "{{APP_USER}}"
