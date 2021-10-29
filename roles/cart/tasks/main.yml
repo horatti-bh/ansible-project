@@ -25,3 +25,4 @@
   file:
     path: /opt/cart
     state: directory
+  become_user: "{{APP_USER}}"
