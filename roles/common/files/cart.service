@@ -2,8 +2,8 @@
 Description=Node.js Cart Service
 
 [Service]
-User=${APP_USER}
-ExecStart=/bin/node /home/${APP_USER}/cart/server.js
+User=project7
+ExecStart=/bin/node /home/project7/cart/server.js
 Restart=always
 RestartSec=10
 StandardOutput=append:/var/log/robo-shop/cart.log
