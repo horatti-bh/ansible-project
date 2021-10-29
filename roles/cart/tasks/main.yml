@@ -37,7 +37,7 @@
     tasks_from: service-setup
 
 - name: start cart service
-  systmed:
+  systemd:
     name: "{{APP_NAME}}"
     state: started
     enabled: yes
