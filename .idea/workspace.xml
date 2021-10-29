@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="cart  packages updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/common/tasks/download-packages-from-git.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/download-packages-from-git.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/mysql/tasks/install.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mysql/tasks/install.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/common/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/common/tasks/nodejs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/nodejs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +51,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00068" summary="boto3 script has been updated">
-      <created>1635173396862</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1635173396862</updated>
     </task>
     <task id="LOCAL-00069" summary="tags added">
       <created>1635173952183</created>
@@ -396,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635440584158</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="cart  packages updates">
+      <created>1635522859472</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1635522859473</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

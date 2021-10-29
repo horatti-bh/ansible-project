@@ -3,8 +3,25 @@
     name: gcc-c++
     state: present
 
+- name: NodeJS directory creation/check
+  state:
+    path: /opt/{{NODEJS_DIR}}
+  register: stat
+
+- name: print the NodeJS directory
+  debug:
+    msg: "{{stat}}"
+
 - name: Download the NodeJS
   unarchive:
     src: "{{NODEJS_URL}}"
     dest: /opt
     remote_src: yes
+  when: not stat.stat.exists |bool
+
+- name: NodeJs linking
+  file:
+    src: /opt/{{NODEJS_DIR}}
+    dest: /opt/nodejs
+    state: link
+
