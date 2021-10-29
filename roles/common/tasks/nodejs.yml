@@ -4,7 +4,7 @@
     state: present
 
 - name: NodeJS directory creation/check
-  state:
+  stat:
     path: /opt/{{NODEJS_DIR}}
   register: stat
 
