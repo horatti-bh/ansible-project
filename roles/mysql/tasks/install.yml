@@ -5,6 +5,7 @@
 - name: remove few existing DB's
   yum:
     name: mariadb-libs
+
     state: absent
 
 - name: Download the mysql
