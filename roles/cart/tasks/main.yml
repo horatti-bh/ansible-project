@@ -36,7 +36,7 @@
     name: common
     tasks_from: service-setup
   vars:
-    COMMAND: "/bin/node /home/project7/cart/server.js"
+    COMMAND: "/bin/node /home/{{APP_USER}}/{{APP_NAME}}/server.js"
 
 - name: start cart service
   systemd:
