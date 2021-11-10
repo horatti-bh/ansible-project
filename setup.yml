@@ -29,3 +29,13 @@
       import_role:
         name: cart
       tags: [cart]
+
+    - name: Run catalogue
+      import_role:
+        name: catalogue
+      tags: [catalogue]
+
+    - name: Run user
+      import_role:
+        name: user
+      tags: [user]

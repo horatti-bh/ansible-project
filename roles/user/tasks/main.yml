@@ -1,0 +1,3 @@
+- name: Include NodeJS for USER
+  include_role:
+    name: nodejs-app

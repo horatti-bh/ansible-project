@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="cart  systemd.service updated">
-      <change afterPath="$PROJECT_DIR$/roles/nodejs-app/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/cart/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/cart/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/catalogue/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/catalogue/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/catalogue/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/catalogue/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/catalogue/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/catalogue/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/user/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/user/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/user/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/user/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/setup.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +58,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00092" summary="MYSQL packages">
-      <created>1635356888415</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1635356888415</updated>
     </task>
     <task id="LOCAL-00093" summary="MYSQL packages">
       <created>1635356984466</created>
@@ -398,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636564339821</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="cart  systemd.service updated">
+      <created>1636565392204</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1636565392204</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
