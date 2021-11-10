@@ -1,0 +1,47 @@
+- name: Install NodeJs
+  include_role:
+    name: common
+    tasks_from: nodejs
+
+- name: Install NodeJs
+  include_role:
+    name: common
+    tasks_from: user.yml
+
+- name: download schema
+  include_role:
+    name: common
+    tasks_from: download-packages-from-git.yml
+
+- name: create {{APP_NAME}} directory
+  file:
+    path: /home/{{APP_USER}}/{{APP_NAME}}
+    state: directory
+  become_user: "{{APP_USER}}"
+
+- name: Unarchive MongoDB
+  unarchive:
+    src: /tmp/ansible-project/{{APP_NAME}}.tar
+    dest: /home/{{APP_USER}}/{{APP_NAME}}
+    remote_src: yes
+  become_user: "{{APP_USER}}"
+
+- name: Install NPM package(NodeJs dep)
+  npm:
+    path: /home/{{APP_USER}}/{{APP_NAME}}
+  become_user: "{{APP_USER}}"
+
+- name: Install NodeJs
+  include_role:
+    name: common
+    tasks_from: service-setup
+  vars:
+    COMMAND: "/bin/node /home/{{APP_USER}}/{{APP_NAME}}/server.js"
+
+- name: start {{APP_NAME}}  service
+  systemd:
+    name: "{{APP_NAME}}"
+    state: started
+    enabled: yes
+
+

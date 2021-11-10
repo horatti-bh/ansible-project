@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="cart  systemd.service updated">
-      <change beforePath="$PROJECT_DIR$/roles/common/files/systemd.service" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/templates/systemd.service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/common/tasks/service-setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/service-setup.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/nodejs-app/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/cart/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/cart/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,9 @@
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\cart" />
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\rabbitmq" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\common\templates" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,27 +54,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00089" summary="MYSQL packages">
-      <created>1635355997612</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1635355997612</updated>
-    </task>
-    <task id="LOCAL-00090" summary="MYSQL packages">
-      <created>1635356649920</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1635356649920</updated>
-    </task>
-    <task id="LOCAL-00091" summary="MYSQL packages">
-      <created>1635356713236</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1635356713236</updated>
     </task>
     <task id="LOCAL-00092" summary="MYSQL packages">
       <created>1635356888415</created>
@@ -395,7 +377,28 @@
       <option name="project" value="LOCAL" />
       <updated>1636563867698</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="cart  systemd.service updated">
+      <created>1636564152016</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1636564152016</updated>
+    </task>
+    <task id="LOCAL-00139" summary="cart  systemd.service updated">
+      <created>1636564280399</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1636564280399</updated>
+    </task>
+    <task id="LOCAL-00140" summary="cart  systemd.service updated">
+      <created>1636564339821</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1636564339821</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
