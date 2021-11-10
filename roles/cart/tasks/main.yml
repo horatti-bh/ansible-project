@@ -35,6 +35,8 @@
   include_role:
     name: common
     tasks_from: service-setup
+  vars:
+    COMMAND: "/bin/node /home/project7/cart/server.js"
 
 - name: start cart service
   systemd:
