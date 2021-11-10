@@ -4,7 +4,7 @@
     state: directory
 
 - name: copy cart start service details
-  copy:
+  template:
     src: systemd.service
     dest: /etc/systemd/system/{{APP_NAME}}.service
 
