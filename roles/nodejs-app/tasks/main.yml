@@ -13,7 +13,7 @@
     path: /home/{{APP_USER}}/{{APP_NAME}}
   become_user: "{{APP_USER}}"
 
-- name: Install NodeJs
+- name: setup systemd service
   include_role:
     name: common
     tasks_from: service-setup
