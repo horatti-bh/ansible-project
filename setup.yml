@@ -39,3 +39,8 @@
       import_role:
         name: user
       tags: [user]
+
+    - name: Run shipping
+      import_role:
+        name: shipping
+      tags: [shipping]

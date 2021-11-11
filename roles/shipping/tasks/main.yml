@@ -1,0 +1,9 @@
+- name: Install java
+  yum:
+    name: java
+    state: present
+
+- name: setup artifacts for {{APP_NAME}}
+  include_role:
+    name: common
+    tasks_from: setup-artifact

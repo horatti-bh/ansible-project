@@ -3,28 +3,10 @@
     name: common
     tasks_from: nodejs
 
-- name: Install NodeJs
+- name: setup artifacts for {{APP_NAME}}
   include_role:
     name: common
-    tasks_from: user.yml
-
-- name: download schema
-  include_role:
-    name: common
-    tasks_from: download-packages-from-git.yml
-
-- name: create {{APP_NAME}} directory
-  file:
-    path: /home/{{APP_USER}}/{{APP_NAME}}
-    state: directory
-  become_user: "{{APP_USER}}"
-
-- name: Unarchive MongoDB
-  unarchive:
-    src: /tmp/ansible-project/{{APP_NAME}}.tar
-    dest: /home/{{APP_USER}}/{{APP_NAME}}
-    remote_src: yes
-  become_user: "{{APP_USER}}"
+    tasks_from: setup-artifact
 
 - name: Install NPM package(NodeJs dep)
   npm:

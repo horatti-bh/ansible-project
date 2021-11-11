@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="cart  systemd.service updated">
-      <change beforePath="$PROJECT_DIR$/roles/catalogue/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/catalogue/defaults/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/catalogue/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/catalogue/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/catalogue/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/catalogue/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/user/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/user/defaults/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/user/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/user/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/setup.yml" afterDir="false" />
+    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="user and catalogue systemd.service updated">
+      <change afterPath="$PROJECT_DIR$/roles/common/tasks/setup-artifact.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/shipping/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/shipping/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/shipping/vars/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/common/tasks/download-packages-from-git.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/download-packages-from-git.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/nodejs-app/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/nodejs-app/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +36,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/common/tasks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/shipping" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\shipping" />
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\common\tasks" />
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\user" />
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\catalogue" />
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\cart" />
-      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\rabbitmq" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\common\templates" />
@@ -58,13 +59,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00093" summary="MYSQL packages">
-      <created>1635356984466</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1635356984466</updated>
     </task>
     <task id="LOCAL-00094" summary="MYSQL packages">
       <created>1635357806490</created>
@@ -402,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636565392204</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="user and catalogue systemd.service updated">
+      <created>1636565953016</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1636565953016</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,6 +442,7 @@
     <MESSAGE value="rabbitmq  packages updates" />
     <MESSAGE value="cart  packages updates" />
     <MESSAGE value="cart  systemd.service updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="cart  systemd.service updated" />
+    <MESSAGE value="user and catalogue systemd.service updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="user and catalogue systemd.service updated" />
   </component>
 </project>
