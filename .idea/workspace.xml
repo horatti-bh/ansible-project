@@ -54,20 +54,6 @@
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
     </task>
-    <task id="LOCAL-00112" summary="rabbitmq  packages updates">
-      <created>1635440037518</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1635440037518</updated>
-    </task>
-    <task id="LOCAL-00113" summary="rabbitmq  packages updates">
-      <created>1635440296508</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1635440296508</updated>
-    </task>
     <task id="LOCAL-00114" summary="cart  packages updates">
       <created>1635440395060</created>
       <option name="number" value="00114" />
@@ -397,7 +383,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636739053068</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="ratings systemd.service updated">
+      <created>1636739308870</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1636739308870</updated>
+    </task>
+    <task id="LOCAL-00162" summary="ratings systemd.service updated">
+      <created>1636739414318</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1636739414318</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
