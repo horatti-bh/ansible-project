@@ -51,7 +51,7 @@
     name: pexpect
 
 - name: reset MYSQL password
-  expect:
+  shell:
     command: mysql -uroot -p
     responses:
       (?i)password: "{{mysql_password.stdout}}"
