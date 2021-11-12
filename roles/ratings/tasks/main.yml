@@ -27,11 +27,16 @@
     path: /var/www/html
     state: absent
 
+- name: Create HTML directory
+  file:
+    path: /var/www/html
+    state: directory
+
 - name: Unarchive {{APP_NAME}}
   unarchive:
     src: /tmp/ansible-project/{{APP_NAME}}.tar
-    dest: /home/{{APP_USER}}/{{APP_NAME}}
+    dest: /var/www/html
     remote_src: yes
-  become_user: "{{APP_USER}}"
+
 
 
