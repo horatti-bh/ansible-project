@@ -57,7 +57,7 @@
       (?i)password: "{{mysql_password.stdout}}"
       'mysql>': "ALTER USER 'root'@'localhost' IDENTIFIED BY 'R00tPa$s1!';uninstall plugin validate_password;exit"
     register: out
-
+    ignore_errors: yes
 
 #- name: Instal MYSQL python
 #  pip:
