@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="ratings systemd.service updated">
-      <change beforePath="$PROJECT_DIR$/roles/ratings/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/ratings/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/ratings/templates/status.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roles/ratings/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/ratings/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00099" summary="MYSQL packages">
-      <created>1635436621408</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1635436621408</updated>
-    </task>
-    <task id="LOCAL-00100" summary="MYSQL packages">
-      <created>1635436636014</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1635436636014</updated>
     </task>
     <task id="LOCAL-00101" summary="MYSQL packages">
       <created>1635436694789</created>
@@ -398,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636724734374</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="ratings systemd.service updated">
+      <created>1636725112213</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1636725112213</updated>
+    </task>
+    <task id="LOCAL-00149" summary="ratings systemd.service updated">
+      <created>1636725277373</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1636725277373</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

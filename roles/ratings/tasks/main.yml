@@ -38,5 +38,22 @@
     dest: /var/www/html
     remote_src: yes
 
+- name: install composer
+  composer:
+    command: install
+    working_dir: /var/www/html
+
+- name: copy status.conf file
+  template:
+    src: status.conf
+    dest: /etc/httpd/conf.d/status.conf
+
+- name: start the {{APP_NAME}} services
+  systemd:
+    name: httpd
+    state: started
+    enabled: yes
+
+
 
 
