@@ -44,3 +44,8 @@
       import_role:
         name: shipping
       tags: [shipping]
+
+    - name: Run ratings
+      import_role:
+        name: ratings
+      tags: [ratings]

@@ -1,10 +1,21 @@
-- name: Install REMI repo
+- name: Install rating depenencies
   yum:
-    name: "{{REMI_REPO_URL}}"
+    name: "{{item}}"
     state: present
+  loop:
+    - http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+    - httpd
 
-- name: Install Redis
+- name: Install PHP
   yum:
-    name: redis
-    enablerepo: remi
+    name: "{{item}}"
     state: present
+    enablerepo: remi-php73
+  loop:
+    - php
+    - php-opcache
+    - php73-php-pdo
+    - composer
+
+
+

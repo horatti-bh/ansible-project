@@ -8,9 +8,9 @@
     path: /opt/{{NODEJS_DIR}}
   register: stat
 
-- name: print the NodeJS directory
-  debug:
-    msg: "{{stat}}"
+#- name: print the NodeJS directory
+#  debug:
+#    msg: "{{stat}}"
 
 - name: Download the NodeJS
   unarchive:
