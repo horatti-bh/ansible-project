@@ -17,9 +17,21 @@
     - php73-php-pdo
     - composer
 
-- name: setup artifacts for {{APP_NAME}}
+- name: download schema for {{APP_NAME}}
   include_role:
     name: common
-    tasks_from: setup-artifact
+    tasks_from: download-packages-from-git.yml
+
+- name: Delete old HTML
+  file:
+    path: /var/www/html
+    state: absent
+
+- name: Unarchive {{APP_NAME}}
+  unarchive:
+    src: /tmp/ansible-project/{{APP_NAME}}.tar
+    dest: /home/{{APP_USER}}/{{APP_NAME}}
+    remote_src: yes
+  become_user: "{{APP_USER}}"
 
 
