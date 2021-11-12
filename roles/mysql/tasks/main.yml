@@ -21,7 +21,7 @@
 - name: load schema mysql
   mysql_db:
     state: import
-    name: all
+#    name: all
     target: "{{item}}"
 #    login_user: root
 #    login_password: password
