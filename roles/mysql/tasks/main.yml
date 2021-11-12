@@ -14,30 +14,30 @@
     dest: /tmp
     remote_src: yes
 
-- name: Unarchive mysql
-  unarchive:
-    src: /tmp/ansible-project/ratings.tar
-    dest: /tmp
-    remote_src: yes
-
-- name: Unarchive mysql
-  unarchive:
-    src: /tmp/ansible-project/shippings.tar
-    dest: /tmp
-    remote_src: yes
+#- name: Unarchive mysql
+#  unarchive:
+#    src: /tmp/ansible-project/ratings.tar
+#    dest: /tmp
+#    remote_src: yes
+#
+#- name: Unarchive mysql
+#  unarchive:
+#    src: /tmp/ansible-project/shippings.tar
+#    dest: /tmp
+#    remote_src: yes
 
 - name: Install pip
   pip:
     name: MySQL-python
 
-- name: load schema mysql
-  mysql_db:
-    state: import
-#    name: all
-    target: "{{item}}"
-#    login_user: root
-#    login_password: password
-  loop:
-    - /tmp/ratings.sql
-    - /tmp/shipping.sql
+#- name: load schema mysql
+#  mysql_db:
+#    state: import
+##    name: all
+#    target: "{{item}}"
+##    login_user: root
+##    login_password: password
+#  loop:
+#    - /tmp/ratings.sql
+#    - /tmp/shipping.sql
 
