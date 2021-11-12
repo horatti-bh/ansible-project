@@ -3,3 +3,29 @@
     name: mysql
     tasks_from: install
 
+- name: download schema mysql
+  include_role:
+    name: common
+    tasks_from: download-packages-from-git.yml
+
+- name: Unarchive mysql
+  unarchive:
+    src: /tmp/ansible-project/{{APP_NAME}}.tar
+    dest: /tmp
+    remote_src: yes
+
+- name: Install pip
+  pip:
+    name: MySQL-python
+
+- name: load schema mysql
+  mysql_db:
+    state: import
+    name: all
+    target: "{{item}}"
+    login_user: root
+    login_password: password
+  loop:
+    - /tmp/ratings.sql
+    - /tmp/shipping.sql
+

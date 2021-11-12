@@ -46,6 +46,8 @@
     line: "ALTER USER 'root'@'localhost' IDENTIFIED BY 'dJYk&%*!K';"
     create: yes
 
+
+
 #- name: Instal MYSQL python
 #  pip:
 #    name: MySQL-python
