@@ -46,6 +46,17 @@
     line: "ALTER USER 'root'@'localhost' IDENTIFIED BY 'dJYk&%*!K';"
     create: yes
 
+- name: Install pexpect module
+  pip:
+    name: pexpect
+
+- name: reset MYSQL password
+  expect:
+    command: mysql -uroot -p
+    responses:
+          (?i)password: "{{mysql_password.stdout}}"
+          'mysql>': "ALTER USER 'root'@'localhost' IDENTIFIED BY 'R00tPa$s1!';uninstall plugin validate_password;exit"
+      register: out
 
 
 #- name: Instal MYSQL python
