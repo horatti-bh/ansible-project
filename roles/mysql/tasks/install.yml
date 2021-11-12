@@ -54,9 +54,9 @@
   expect:
     command: mysql -uroot -p
     responses:
-          (?i)password: "{{mysql_password.stdout}}"
-          'mysql>': "ALTER USER 'root'@'localhost' IDENTIFIED BY 'R00tPa$s1!';uninstall plugin validate_password;exit"
-      register: out
+      (?i)password: "{{mysql_password.stdout}}"
+      'mysql>': "ALTER USER 'root'@'localhost' IDENTIFIED BY 'R00tPa$s1!';uninstall plugin validate_password;exit"
+    register: out
 
 
 #- name: Instal MYSQL python
