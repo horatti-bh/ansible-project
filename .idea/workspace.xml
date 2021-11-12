@@ -54,13 +54,6 @@
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
     </task>
-    <task id="LOCAL-00107" summary="MYSQL packages">
-      <created>1635437325421</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1635437325421</updated>
-    </task>
     <task id="LOCAL-00108" summary="MYSQL packages">
       <created>1635437395928</created>
       <option name="number" value="00108" />
@@ -397,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636733390416</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="ratings systemd.service updated">
+      <created>1636733577811</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1636733577811</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
