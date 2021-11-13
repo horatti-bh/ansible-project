@@ -1,0 +1,67 @@
+- name: Install rating depenencies
+  yum:
+    name: "{{item}}"
+    state: present
+  loop:
+    - http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+    - httpd
+
+- name: Install PHP
+  yum:
+    name: "{{item}}"
+    state: present
+    enablerepo: remi-php73
+  loop:
+    - php
+    - php-opcache
+    - php73-php-pdo
+    - composer
+
+- name: download schema for {{APP_NAME}}
+  include_role:
+    name: common
+    tasks_from: download-packages-from-git.yml
+
+- name: Delete old HTML
+  file:
+    path: /var/www/html
+    state: absent
+
+- name: Create HTML directory
+  file:
+    path: /var/www/html
+    state: directory
+
+- name: Unarchive {{APP_NAME}}
+  unarchive:
+    src: /tmp/ansible-project/{{APP_NAME}}.tar
+    dest: /var/www/html
+    remote_src: yes
+
+- name: install composer
+  composer:
+    command: install
+    working_dir: /var/www/html
+
+- name: copy status.conf file
+  template:
+    src: status.conf
+    dest: /etc/httpd/conf.d/status.conf
+  notify: Restart Httpd
+
+- name: change the Port nu for http server
+  lineinfile:
+    path: /etc/httpd/conf/httpd.conf
+    regexp: '^Listen'
+    line: Listen 7004
+  notify: Restart Httpd
+
+- name: start the {{APP_NAME}} services
+  systemd:
+    name: httpd
+    state: started
+    enabled: yes
+
+
+
+

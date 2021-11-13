@@ -1,0 +1,38 @@
+- name: Install gcc
+  yum:
+    name: gcc-c++
+    state: present
+
+- name: NodeJS directory creation/check
+  stat:
+    path: /opt/{{NODEJS_DIR}}
+  register: stat
+
+#- name: print the NodeJS directory
+#  debug:
+#    msg: "{{stat}}"
+
+- name: Download the NodeJS
+  unarchive:
+    src: "{{NODEJS_URL}}"
+    dest: /opt
+    remote_src: yes
+  when: not stat.stat.exists |bool
+
+- name: NodeJs linking
+  file:
+    src: /opt/{{NODEJS_DIR}}
+    dest: /opt/nodejs
+    state: link
+
+- name: Create links to default bin
+  file:
+    src: /opt/nodejs/bin/{{item}}
+    dest: /bin/{{item}}
+    state: link
+  loop:
+    - node
+    - npm
+    - npm
+
+

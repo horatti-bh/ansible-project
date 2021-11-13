@@ -1,0 +1,29 @@
+- name: Install NodeJs
+  include_role:
+    name: common
+    tasks_from: nodejs
+
+- name: setup artifacts for {{APP_NAME}}
+  include_role:
+    name: common
+    tasks_from: setup-artifact
+
+- name: Install NPM package(NodeJs dep)
+  npm:
+    path: /home/{{APP_USER}}/{{APP_NAME}}
+  become_user: "{{APP_USER}}"
+
+- name: setup systemd service
+  include_role:
+    name: common
+    tasks_from: service-setup
+  vars:
+    COMMAND: "/bin/node /home/{{APP_USER}}/{{APP_NAME}}/server.js"
+
+- name: start {{APP_NAME}}  service
+  systemd:
+    name: "{{APP_NAME}}"
+    state: started
+    enabled: yes
+
+

@@ -1,0 +1,3 @@
+- name: Include NodeJS for cart
+  include_role:
+    name: nodejs-app

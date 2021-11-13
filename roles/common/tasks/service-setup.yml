@@ -1,0 +1,13 @@
+- name: Create log directory
+  file:
+    path: /var/log/robo-shop
+    state: directory
+
+- name: copy cart start service details
+  template:
+    src: systemd.service
+    dest: /etc/systemd/system/{{APP_NAME}}.service
+
+- name: load systemd
+  systemd:
+    daemon_reload: yes

@@ -1,0 +1,10 @@
+- name: Install REMI repo
+  yum:
+    name: "{{REMI_REPO_URL}}"
+    state: present
+
+- name: Install Redis
+  yum:
+    name: redis
+    enablerepo: remi
+    state: present

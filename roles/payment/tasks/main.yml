@@ -1,0 +1,27 @@
+- name: Install python3
+  yum:
+    name: [ "python36", "gcc", "python3-devel" ]
+    state: present
+
+- name: setup artifacts for {{APP_NAME}}
+  include_role:
+    name: common
+    tasks_from: setup-artifact
+
+- name: install python dependencies
+  pip:
+    requirements: /home/{{APP_USER}}/{{APP_NAME}}/requirements.txt
+    executable: pip3
+
+- name: setup systemd service
+  include_role:
+    name: common
+    tasks_from: service-setup
+  vars:
+    COMMAND: "/usr/local/bin/uwsgi --ini payment.ini"
+
+- name: start {{APP_NAME}}  service
+  systemd:
+    name: "{{APP_NAME}}"
+    state: restarted
+    enabled: yes

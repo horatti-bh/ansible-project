@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="frontend systemd.service updated">
+      <change beforePath="$PROJECT_DIR$/roles/frontend/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/ratings/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/ratings/tasks/main.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="project-code" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1z01kmx5ENgyUTSFiM3bzzrFkB6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/frontend" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\frontend" />
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\ frontend" />
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\dispatch" />
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\payment" />
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\ratings" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\common\templates" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="" />
+      <created>1633270361477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633270361477</updated>
+    </task>
+    <task id="LOCAL-00160" summary="ratings systemd.service updated">
+      <created>1636739053068</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1636739053068</updated>
+    </task>
+    <task id="LOCAL-00161" summary="ratings systemd.service updated">
+      <created>1636739308870</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1636739308870</updated>
+    </task>
+    <task id="LOCAL-00162" summary="ratings systemd.service updated">
+      <created>1636739414318</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1636739414318</updated>
+    </task>
+    <task id="LOCAL-00163" summary="ratings systemd.service updated">
+      <created>1636739755414</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1636739755414</updated>
+    </task>
+    <task id="LOCAL-00164" summary="ratings systemd.service updated">
+      <created>1636808250351</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1636808250352</updated>
+    </task>
+    <task id="LOCAL-00165" summary="ratings systemd.service updated">
+      <created>1636813583253</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1636813583254</updated>
+    </task>
+    <task id="LOCAL-00166" summary="ratings systemd.service updated">
+      <created>1636813767048</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1636813767048</updated>
+    </task>
+    <task id="LOCAL-00167" summary="ratings systemd.service updated">
+      <created>1636814385921</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1636814385921</updated>
+    </task>
+    <task id="LOCAL-00168" summary="ratings systemd.service updated">
+      <created>1636814651469</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1636814651469</updated>
+    </task>
+    <task id="LOCAL-00169" summary="ratings systemd.service updated">
+      <created>1636815858389</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1636815858389</updated>
+    </task>
+    <task id="LOCAL-00170" summary="ratings systemd.service updated">
+      <created>1636816008215</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1636816008216</updated>
+    </task>
+    <task id="LOCAL-00171" summary="ratings systemd.service updated">
+      <created>1636816293244</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1636816293244</updated>
+    </task>
+    <task id="LOCAL-00172" summary="ratings systemd.service updated">
+      <created>1636816610687</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1636816610687</updated>
+    </task>
+    <task id="LOCAL-00173" summary="ratings systemd.service updated">
+      <created>1636816783992</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1636816783992</updated>
+    </task>
+    <task id="LOCAL-00174" summary="ratings systemd.service updated">
+      <created>1636817071716</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1636817071716</updated>
+    </task>
+    <task id="LOCAL-00175" summary="ratings systemd.service updated">
+      <created>1636817367385</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1636817367385</updated>
+    </task>
+    <task id="LOCAL-00176" summary="ratings systemd.service updated">
+      <created>1636817669887</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1636817669887</updated>
+    </task>
+    <task id="LOCAL-00177" summary="ratings systemd.service updated">
+      <created>1636819802765</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1636819802765</updated>
+    </task>
+    <task id="LOCAL-00178" summary="ratings systemd.service updated">
+      <created>1636820103329</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1636820103329</updated>
+    </task>
+    <task id="LOCAL-00179" summary="ratings systemd.service updated">
+      <created>1636820210443</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1636820210443</updated>
+    </task>
+    <task id="LOCAL-00180" summary="ratings systemd.service updated">
+      <created>1636820227434</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1636820227434</updated>
+    </task>
+    <task id="LOCAL-00181" summary="ratings systemd.service updated">
+      <created>1636820387096</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1636820387096</updated>
+    </task>
+    <task id="LOCAL-00182" summary="ratings systemd.service updated">
+      <created>1636820758906</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1636820758907</updated>
+    </task>
+    <task id="LOCAL-00183" summary="ratings systemd.service updated">
+      <created>1636820920053</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1636820920053</updated>
+    </task>
+    <task id="LOCAL-00184" summary="ratings systemd.service updated">
+      <created>1636821065862</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1636821065862</updated>
+    </task>
+    <task id="LOCAL-00185" summary="ratings systemd.service updated">
+      <created>1636821198134</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1636821198134</updated>
+    </task>
+    <task id="LOCAL-00186" summary="ratings systemd.service updated">
+      <created>1636821352235</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1636821352235</updated>
+    </task>
+    <task id="LOCAL-00187" summary="ratings systemd.service updated">
+      <created>1636821485536</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1636821485536</updated>
+    </task>
+    <task id="LOCAL-00188" summary="ratings systemd.service updated">
+      <created>1636821971328</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1636821971329</updated>
+    </task>
+    <task id="LOCAL-00189" summary="ratings systemd.service updated">
+      <created>1636822366326</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1636822366327</updated>
+    </task>
+    <task id="LOCAL-00190" summary="ratings systemd.service updated">
+      <created>1636822449072</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1636822449072</updated>
+    </task>
+    <task id="LOCAL-00191" summary="ratings systemd.service updated">
+      <created>1636822582603</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1636822582603</updated>
+    </task>
+    <task id="LOCAL-00192" summary="payment systemd.service updated">
+      <created>1636823666090</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1636823666090</updated>
+    </task>
+    <task id="LOCAL-00193" summary="payment systemd.service updated">
+      <created>1636824238258</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1636824238258</updated>
+    </task>
+    <task id="LOCAL-00194" summary="dispatch systemd.service updated">
+      <created>1636824721224</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1636824721225</updated>
+    </task>
+    <task id="LOCAL-00195" summary="dispatch systemd.service updated">
+      <created>1636824778027</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1636824778028</updated>
+    </task>
+    <task id="LOCAL-00196" summary="dispatch systemd.service updated">
+      <created>1636824820313</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1636824820313</updated>
+    </task>
+    <task id="LOCAL-00197" summary="dispatch systemd.service updated">
+      <created>1636825682630</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1636825682630</updated>
+    </task>
+    <task id="LOCAL-00198" summary="dispatch systemd.service updated">
+      <created>1636825735299</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1636825735299</updated>
+    </task>
+    <task id="LOCAL-00199" summary="dispatch systemd.service updated">
+      <created>1636826040696</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1636826040696</updated>
+    </task>
+    <task id="LOCAL-00200" summary="dispatch systemd.service updated">
+      <created>1636826088747</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1636826088747</updated>
+    </task>
+    <task id="LOCAL-00201" summary="dispatch systemd.service updated">
+      <created>1636826423193</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1636826423193</updated>
+    </task>
+    <task id="LOCAL-00202" summary="dispatch systemd.service updated">
+      <created>1636826838335</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1636826838335</updated>
+    </task>
+    <task id="LOCAL-00203" summary="frontend systemd.service updated">
+      <created>1636827001007</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1636827001007</updated>
+    </task>
+    <task id="LOCAL-00204" summary="frontend systemd.service updated">
+      <created>1636828114201</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1636828114201</updated>
+    </task>
+    <task id="LOCAL-00205" summary="frontend systemd.service updated">
+      <created>1636828545209</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1636828545209</updated>
+    </task>
+    <task id="LOCAL-00206" summary="frontend systemd.service updated">
+      <created>1636828954937</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1636828954937</updated>
+    </task>
+    <task id="LOCAL-00207" summary="frontend systemd.service updated">
+      <created>1636829079536</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1636829079536</updated>
+    </task>
+    <task id="LOCAL-00208" summary="frontend systemd.service updated">
+      <created>1636829489183</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1636829489183</updated>
+    </task>
+    <option name="localTasksCounter" value="209" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/project-code" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="debug" />
+    <MESSAGE value="test in intellij" />
+    <MESSAGE value="code has been updated" />
+    <MESSAGE value="python-pip" />
+    <MESSAGE value="python-pip command updated" />
+    <MESSAGE value="boto3 script has been updated" />
+    <MESSAGE value="tags added" />
+    <MESSAGE value="MYSQL packages" />
+    <MESSAGE value="rabbitmq  packages updates" />
+    <MESSAGE value="cart  packages updates" />
+    <MESSAGE value="cart  systemd.service updated" />
+    <MESSAGE value="user and catalogue systemd.service updated" />
+    <MESSAGE value="shipping systemd.service updated" />
+    <MESSAGE value="ratings systemd.service updated" />
+    <MESSAGE value="payment systemd.service updated" />
+    <MESSAGE value="dispatch systemd.service updated" />
+    <MESSAGE value="frontend systemd.service updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend systemd.service updated" />
+  </component>
+</project>

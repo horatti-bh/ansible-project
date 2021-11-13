@@ -1,0 +1,40 @@
+- name: Install git
+  yum:
+    name: git
+    state: present
+
+- name: copy Mongodb repo file
+  copy:
+    src: mongodb.repo
+    dest: /etc/yum.repos.d/mongodb.repo
+    
+- name: Install mongodb
+  yum:
+    name: mongodb-org
+    state: present
+    
+- name: start & enable MongoDB service
+  systemd:
+    name: mongod
+    state: started
+    enabled: yes
+
+- name: download schema
+  include_role:
+    name: common
+    tasks_from: download-packages-from-git.yml
+
+- name: Unarchive MongoDB
+  unarchive:
+    src: /tmp/ansible-project/{{APP_NAME}}.tar
+    dest: /tmp
+    remote_src: yes
+
+- name: load schema
+  shell: mongo < {{item}}
+  loop:
+    - /tmp/catalogue.js
+    - /tmp/users.js
+
+
+    

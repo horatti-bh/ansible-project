@@ -1,0 +1,3 @@
+- name: create common project user
+  user:
+    name: "{{APP_USER}}"

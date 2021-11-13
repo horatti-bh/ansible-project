@@ -1,0 +1,38 @@
+- name: Instal NGINX
+  yum:
+    name: nginx
+    state: present
+
+- name: download schema for {{APP_NAME}}
+  include_role:
+    name: common
+    tasks_from: download-packages-from-git.yml
+
+- name: Copy nginx-localhost.conf
+  template:
+    src: localhost.conf
+    dest: /etc/nginx/nginx.conf
+  notify: Restart Nginx
+
+- name: Copy the html content and remove old htdoc
+  file:
+    path: /usr/share/nginx/html
+    state: absent
+
+- name: create htdoc directory
+  file:
+    path: /usr/share/nginx/html
+    state: directory
+
+- name: copy htdocs
+  unarchive:
+    src: /tmp/ansible-project/{{APP_NAME}}.tar
+    dest: /usr/share/nginx/html
+    remote_src: yes
+
+- name: start NGINX
+  systemd:
+    name: nginx
+    state: started
+    enabled: yes
+
