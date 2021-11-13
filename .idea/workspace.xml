@@ -54,13 +54,6 @@
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
     </task>
-    <task id="LOCAL-00127" summary="cart  packages updates">
-      <created>1635531408002</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1635531408002</updated>
-    </task>
     <task id="LOCAL-00128" summary="cart  packages updates">
       <created>1635531479257</created>
       <option name="number" value="00128" />
@@ -397,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636817367385</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="ratings systemd.service updated">
+      <created>1636817669887</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1636817669887</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
