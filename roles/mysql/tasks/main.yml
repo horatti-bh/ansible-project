@@ -42,7 +42,7 @@
     state: import
     name: all
     target: "{{item}}"
-    login_user: root
+    login_user: "{{APP_USER}}"
     login_password: "dJYk&%*!K!"
   loop:
     - /tmp/ratings.sql
