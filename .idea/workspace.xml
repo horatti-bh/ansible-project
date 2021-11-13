@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="payment systemd.service updated">
-      <change beforePath="$PROJECT_DIR$/roles/dispatch/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/dispatch/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/dispatch/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/dispatch/vars/main.yml" afterDir="false" />
+    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="dispatch systemd.service updated">
+      <change afterPath="$PROJECT_DIR$/roles/ frontend/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/ frontend/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/ frontend/templates/localhost.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/ frontend/vars/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +33,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/dispatch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/ frontend" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\ frontend" />
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\dispatch" />
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\payment" />
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\ratings" />
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\shipping" />
-      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\common\tasks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\common\templates" />
@@ -54,27 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00145" summary="shipping systemd.service updated">
-      <created>1636649945384</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1636649945384</updated>
-    </task>
-    <task id="LOCAL-00146" summary="ratings systemd.service updated">
-      <created>1636724440164</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1636724440165</updated>
-    </task>
-    <task id="LOCAL-00147" summary="ratings systemd.service updated">
-      <created>1636724734374</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1636724734374</updated>
     </task>
     <task id="LOCAL-00148" summary="ratings systemd.service updated">
       <created>1636725112213</created>
@@ -398,7 +379,28 @@
       <option name="project" value="LOCAL" />
       <updated>1636824238258</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="dispatch systemd.service updated">
+      <created>1636824721224</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1636824721225</updated>
+    </task>
+    <task id="LOCAL-00195" summary="dispatch systemd.service updated">
+      <created>1636824778027</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1636824778028</updated>
+    </task>
+    <task id="LOCAL-00196" summary="dispatch systemd.service updated">
+      <created>1636824820313</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1636824820313</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,6 +443,7 @@
     <MESSAGE value="shipping systemd.service updated" />
     <MESSAGE value="ratings systemd.service updated" />
     <MESSAGE value="payment systemd.service updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="payment systemd.service updated" />
+    <MESSAGE value="dispatch systemd.service updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="dispatch systemd.service updated" />
   </component>
 </project>

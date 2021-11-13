@@ -1,0 +1,22 @@
+- name: Instal NGINX
+  yum:
+    name: nginx
+    state: present
+
+- name: download schema for {{APP_NAME}}
+  include_role:
+    name: common
+    tasks_from: download-packages-from-git.yml
+
+
+- name: Copy nginx-localhost.conf
+  template:
+    src: localhost.conf
+    dest: /etc/nginx/nginx.conf
+
+- name: Copy the html content and remove old htdoc
+  file:
+    path: /usr/share/nginx/html
+    state: absent
+
+- name:
