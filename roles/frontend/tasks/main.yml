@@ -29,3 +29,9 @@
     dest: /usr/share/nginx/html
     remote_src: yes
 
+- name: start NGINX
+  systemd:
+    name: nginx
+    state: started
+    enabled: yes
+
