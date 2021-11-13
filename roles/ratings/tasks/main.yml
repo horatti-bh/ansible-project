@@ -49,12 +49,12 @@
     dest: /etc/httpd/conf.d/status.conf
   notify: Restart Httpd
 
-- name: change the Port nu for http server
-  lineinfile:
-    path: /etc/httpd/conf/httpd.conf
-    regexp: '^Listen'
-    line: Listen 7004
-  notify: Restart Httpd
+#- name: change the Port nu for http server
+#  lineinfile:
+#    path: /etc/httpd/conf/httpd.conf
+#    regexp: '^Listen'
+#    line: Listen 7004
+#  notify: Restart Httpd
 
 - name: start the {{APP_NAME}} services
   systemd:
