@@ -36,7 +36,7 @@
     name: all
     target: "{{item}}"
     login_user: root
-    login_password: "dJYk&%*!K"
+    login_password: 'm,hic#(y=0aA'
   loop:
     - /tmp/ratings.sql
     - /tmp/shipping.sql
