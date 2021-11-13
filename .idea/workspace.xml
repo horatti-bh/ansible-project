@@ -54,27 +54,6 @@
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
     </task>
-    <task id="LOCAL-00135" summary="cart  packages updates">
-      <created>1635533466063</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1635533466063</updated>
-    </task>
-    <task id="LOCAL-00136" summary="cart  packages updates">
-      <created>1635533595693</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1635533595693</updated>
-    </task>
-    <task id="LOCAL-00137" summary="cart  systemd.service updated">
-      <created>1636563867697</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1636563867698</updated>
-    </task>
     <task id="LOCAL-00138" summary="cart  systemd.service updated">
       <created>1636564152016</created>
       <option name="number" value="00138" />
@@ -397,7 +376,28 @@
       <option name="project" value="LOCAL" />
       <updated>1636820920053</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="ratings systemd.service updated">
+      <created>1636821065862</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1636821065862</updated>
+    </task>
+    <task id="LOCAL-00185" summary="ratings systemd.service updated">
+      <created>1636821198134</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1636821198134</updated>
+    </task>
+    <task id="LOCAL-00186" summary="ratings systemd.service updated">
+      <created>1636821352235</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1636821352235</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -30,7 +30,7 @@
   pip:
     name: MySQL-python
 
-- name: load schema mysql
+#- name: load schema mysql
 #  mysql_db:
 #    state: import
 #    name: all
@@ -42,10 +42,10 @@
 #    - /tmp/ratings.sql
 #    - /tmp/shipping.sql
 
-  mysql_user:
-    login_user: root
-    login_password: dJYk&%*!K
-    host: all
-    name: root
-    password: dJYk&%*!K
+#  mysql_user:
+#    login_user: root
+#    login_password: dJYk&%*!K
+#    host: all
+#    name: root
+#    password: dJYk&%*!K
 
