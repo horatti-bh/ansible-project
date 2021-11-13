@@ -50,14 +50,15 @@
   pip:
     name: pexpect
 
-#- name: reset MYSQL password
-#  expect:
-#    command: mysql -uroot -p
-#    responses:
-#      (?i)password: "{{mysql_password.stdout}}"
-#      'mysql>': "ALTER USER 'root'@'localhost' IDENTIFIED BY 'dJYk&%*!K';uninstall plugin validate_password;exit"
-#    register: out
-#    ignore_errors: yes
+- name: Reset MYSQL password
+  expect:
+    command: mysql -uroot -p
+    echo: yes
+    responses:
+      (?i)password: "{{mysql_password.stdout}}"
+      'mysql>': "ALTER USER 'root'@'localhost' IDENTIFIED BY 'dJYk&%*!K';uninstall plugin validate_password;exit"
+    register: out
+    ignore_errors: yes
 
 #- name: Instal MYSQL python
 #  pip:
