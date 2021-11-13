@@ -33,7 +33,7 @@
 - name: load schema mysql
   mysql_db:
     state: import
-    name: all
+    name: root
     target: "{{item}}"
     login_user: root
     login_password: 'dJYk&%*!K'
