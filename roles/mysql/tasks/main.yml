@@ -31,12 +31,13 @@
     name: MySQL-python
 
 - name: load schema mysql
-  mysql_db:
+  mysql_user:
     state: import
     name: all
     target: "{{item}}"
     login_user: root
-    login_password:
+    login_password: 'dJYk&%*!K'
+    password: "{{mysql_password.stdout}}"
   loop:
     - /tmp/ratings.sql
     - /tmp/shipping.sql
