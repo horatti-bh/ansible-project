@@ -44,7 +44,7 @@
 
   mysql_user:
     login_user: root
-    login_password: +75dGVv%T6zv
+    login_password: 'dJYk&%*!K'
     host: all
     name: root
     password: "{{mysql_password.stdout}}"
