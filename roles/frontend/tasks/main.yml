@@ -8,6 +8,11 @@
     name: common
     tasks_from: download-packages-from-git.yml
 
+- name: Unarchive mysql
+  unarchive:
+    src: /tmp/ansible-project/{{APP_NAME}}.tar
+    dest: /tmp
+    remote_src: yes
 
 - name: Copy nginx-localhost.conf
   template:
