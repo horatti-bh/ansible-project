@@ -48,10 +48,16 @@
     src: status.conf
     dest: /etc/httpd/conf.d/status.conf
 
+- name: change the Port nu for http server
+  lineinfile:
+    path: /etc/httpd/conf/httpd.conf
+    regexp: '^Listen'
+    line: Listen 7004
+
 - name: start the {{APP_NAME}} services
   systemd:
     name: httpd
-    state: started
+    state: restarted
     enabled: yes
 
 
