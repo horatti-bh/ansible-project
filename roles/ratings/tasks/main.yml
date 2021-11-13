@@ -47,7 +47,7 @@
   template:
     src: status.conf
     dest: /etc/httpd/conf.d/status.conf
-  notify: Restart Httpd
+  #notify: Restart Httpd
 
 #- name: change the Port nu for http server
 #  lineinfile:
