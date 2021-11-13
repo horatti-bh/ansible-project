@@ -49,3 +49,8 @@
       import_role:
         name: ratings
       tags: [ratings]
+
+    - name: Run payment
+      import_role:
+        name: payment
+      tags: [payment]

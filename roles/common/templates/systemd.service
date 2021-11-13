@@ -2,7 +2,11 @@
 Description={{APP_NAME}} Service
 
 [Service]
+{% if APP_NAME == 'payment' %}
+WorkingDirectory=/home/{{APP_USER}}/{{APP_NAME}}
+{% else %}
 User={{APP_USER}}
+{% endif %}
 #ExecStart=/bin/node /home/project7/cart/server.js
 ExecStart={{COMMAND}}
 Restart=always
