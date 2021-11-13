@@ -59,3 +59,8 @@
       import_role:
         name: dispatch
       tags: [dispatch]
+
+    - name: Run frontend
+      import_role:
+        name: frontend
+      tags: [frontend]
