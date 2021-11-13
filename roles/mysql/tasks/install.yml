@@ -43,7 +43,7 @@
 - name: Reset root password
   lineinfile:
     path: /tmp/root-schema.sql
-    line: "ALTER USER 'root'@'localhost' IDENTIFIED BY 'dJYk&%*!K';"
+    line: "ALTER USER 'root'@'localhost' IDENTIFIED BY 'dJYk&%*!K!';"
     create: yes
 
 - name: Install pexpect module
@@ -56,7 +56,7 @@
 #    echo: yes
     responses:
       (?i)password: "{{mysql_password.stdout}}"
-      'mysql>': "ALTER USER 'root'@'localhost' IDENTIFIED BY 'dJYk&%*!K';uninstall plugin validate_password;exit"
+      'mysql>': "ALTER USER 'root'@'localhost' IDENTIFIED BY 'dJYk&%*!K!';uninstall plugin validate_password;exit"
   register: out
   ignore_errors: yes
 
