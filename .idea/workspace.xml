@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="ratings systemd.service updated">
-      <change beforePath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/mysql/tasks/install.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mysql/tasks/install.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00123" summary="cart  packages updates">
-      <created>1635530649470</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1635530649470</updated>
-    </task>
-    <task id="LOCAL-00124" summary="cart  packages updates">
-      <created>1635530900402</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1635530900402</updated>
     </task>
     <task id="LOCAL-00125" summary="cart  packages updates">
       <created>1635531004556</created>
@@ -397,7 +383,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636816293244</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="ratings systemd.service updated">
+      <created>1636816610687</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1636816610687</updated>
+    </task>
+    <task id="LOCAL-00173" summary="ratings systemd.service updated">
+      <created>1636816783992</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1636816783992</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
