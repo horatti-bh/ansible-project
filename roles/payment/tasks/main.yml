@@ -8,6 +8,11 @@
     name: common
     tasks_from: setup-artifact
 
+- name: install python dependencies
+  pip:
+    requirements: /home/{{APP_USER}}/{{APP_NAME}}/requirements.txt
+    executable: pip3
+
 - name: setup systemd service
   include_role:
     name: common
@@ -18,5 +23,5 @@
 - name: start {{APP_NAME}}  service
   systemd:
     name: "{{APP_NAME}}"
-    state: started
+    state: restarted
     enabled: yes
