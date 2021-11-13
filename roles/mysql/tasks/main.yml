@@ -37,6 +37,7 @@
     target: "{{item}}"
     login_user: root
     login_password: m,hic#(y=0aA"
+    using password: YES
   loop:
     - /tmp/ratings.sql
     - /tmp/shipping.sql
