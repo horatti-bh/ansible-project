@@ -12,7 +12,7 @@
   template:
     src: localhost.conf
     dest: /etc/nginx/nginx.conf
-  notify: restart nginx
+  notify: Restart Nginx
 
 - name: Copy the html content and remove old htdoc
   file:
