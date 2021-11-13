@@ -1,0 +1,3 @@
+- name: Include NodeJS for catalogue
+  include_role:
+    name: nodejs-app

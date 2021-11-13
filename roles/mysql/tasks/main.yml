@@ -37,16 +37,16 @@
   pip:
     name: MySQL-python
 
-- name: Load Schema
-  mysql_db:
-    state: import
-    name: all
-    target: "{{item}}"
- #   login_user: root
- #   login_password: "dJYk&%*!K!"
-  loop:
-    - /tmp/ratings.sql
-    - /tmp/shipping.sql
+#- name: Load Schema
+#  mysql_db:
+#    state: import
+#    name: all
+#    target: "{{item}}"
+#    login_user: root
+#    login_password: "dJYk&%*!K!"
+#  loop:
+#    - /tmp/ratings.sql
+#    - /tmp/shipping.sql
 
 #  mysql_user:
 #    login_user: root
