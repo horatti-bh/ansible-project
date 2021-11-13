@@ -1,3 +1,22 @@
-- name: Include NodeJS for cart
+- name: setup artifacts for {{APP_NAME}}
   include_role:
-    name: nodejs-app
+    name: common
+    tasks_from: setup-artifact
+
+- name: executable permissions for {{APP_NAME}}
+  file:
+    path: /home/{{APP_USER}}/{{APP_NAME}}/dispatch
+    state: present
+    mode: 0755
+- name: setup systemd service
+  include_role:
+    name: common
+    tasks_from: service-setup
+  vars:
+    COMMAND: "/home/{{APP_USER}}/{{APP_NAME}}/dispatch"
+
+- name: start {{APP_NAME}}  service
+  systemd:
+    name: "{{APP_NAME}}"
+    state: restarted
+    enabled: yes
