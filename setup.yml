@@ -54,3 +54,8 @@
       import_role:
         name: payment
       tags: [payment]
+
+    - name: Run dispatch
+      import_role:
+        name: dispatch
+      tags: [dispatch]
