@@ -31,7 +31,7 @@
     name: MySQL-python
 
 - name: load schema mysql
-  mysql_user:
+  mysql_db:
     state: import
     name: all
     target: "{{item}}"
