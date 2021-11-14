@@ -45,10 +45,10 @@
         name: shipping
       tags: [shipping]
 
-    - name: Run ratings
-      import_role:
-        name: ratings
-      tags: [ratings]
+#    - name: Run ratings
+#      import_role:
+#        name: ratings
+#      tags: [ratings]
 
     - name: Run payment
       import_role:
