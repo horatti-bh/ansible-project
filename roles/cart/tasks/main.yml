@@ -1,3 +1,5 @@
 - name: Include NodeJS for cart
   include_role:
     name: nodejs-app
+  vars:
+    APPLICATION_NAME: cart

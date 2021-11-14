@@ -7,6 +7,9 @@
   include_role:
     name: common
     tasks_from: setup-artifact
+  vars:
+    APPLICATION_NAME: payment
+
 
 - name: install python dependencies
   pip:

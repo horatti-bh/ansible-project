@@ -2,12 +2,15 @@
   include_role:
     name: common
     tasks_from: setup-artifact
+  vars:
+    APPLICATION_NAME: dispatch
 
 - name: executable permissions for {{APP_NAME}}
   file:
     path: /home/{{APP_USER}}/{{APP_NAME}}/dispatch
     state: file
     mode: 0755
+
 - name: setup systemd service
   include_role:
     name: common
