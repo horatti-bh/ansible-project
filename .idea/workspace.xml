@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="frontend systemd.service updated">
-      <change beforePath="$PROJECT_DIR$/roles/ratings/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/ratings/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/cart/meta/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/common/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roles/common/templates/rsyslog.conf.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/common/templates/systemd.service" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/templates/systemd.service" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,34 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00173" summary="ratings systemd.service updated">
-      <created>1636816783992</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1636816783992</updated>
-    </task>
-    <task id="LOCAL-00174" summary="ratings systemd.service updated">
-      <created>1636817071716</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1636817071716</updated>
-    </task>
-    <task id="LOCAL-00175" summary="ratings systemd.service updated">
-      <created>1636817367385</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1636817367385</updated>
-    </task>
-    <task id="LOCAL-00176" summary="ratings systemd.service updated">
-      <created>1636817669887</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1636817669887</updated>
     </task>
     <task id="LOCAL-00177" summary="ratings systemd.service updated">
       <created>1636819802765</created>
@@ -397,7 +372,35 @@
       <option name="project" value="LOCAL" />
       <updated>1636893587658</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="frontend systemd.service updated">
+      <created>1636894535485</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1636894535485</updated>
+    </task>
+    <task id="LOCAL-00223" summary="frontend systemd.service updated">
+      <created>1636894658576</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1636894658576</updated>
+    </task>
+    <task id="LOCAL-00224" summary="frontend systemd.service updated">
+      <created>1636894713097</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1636894713097</updated>
+    </task>
+    <task id="LOCAL-00225" summary="frontend systemd.service updated">
+      <created>1636894767713</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1636894767713</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
