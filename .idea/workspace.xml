@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="frontend systemd.service updated">
-      <change afterPath="$PROJECT_DIR$/roles/cart/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/common/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/common/templates/rsyslog.conf.j2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/common/templates/systemd.service" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/templates/systemd.service" afterDir="false" />
-    </list>
+    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="frontend systemd.service updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,13 +51,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00177" summary="ratings systemd.service updated">
-      <created>1636819802765</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1636819802765</updated>
     </task>
     <task id="LOCAL-00178" summary="ratings systemd.service updated">
       <created>1636820103329</created>
@@ -400,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636894767713</updated>
     </task>
-    <option name="localTasksCounter" value="226" />
+    <task id="LOCAL-00226" summary="frontend systemd.service updated">
+      <created>1636898419738</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1636898419738</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
