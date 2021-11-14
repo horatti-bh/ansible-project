@@ -12,7 +12,14 @@
   yum:
     name: mongodb-org
     state: present
-    
+
+#- name: Change MongoDB Configfile to Accept Remote Connections
+#  replace:
+#    path: /etc/mongod.conf
+#    regexp: '127.0.0.1'
+#    replace: '0.0.0.0'
+#  notify: ReStart MongoDB Service
+
 - name: start & enable MongoDB service
   systemd:
     name: mongod
@@ -22,7 +29,10 @@
 - name: download schema
   include_role:
     name: common
-    tasks_from: download-packages-from-git.yml
+    tasks_from: download-packages-from-git
+  vars:
+    APPLICATION_NAME: mongodb
+
 
 - name: Unarchive MongoDB
   unarchive:

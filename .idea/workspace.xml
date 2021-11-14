@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="frontend systemd.service updated">
+      <change afterPath="$PROJECT_DIR$/roles/common/handlers/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/cart/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/cart/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/catalogue/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/catalogue/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/common/tasks/service-setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/service-setup.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/common/tasks/setup-artifact.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/common/tasks/setup-artifact.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/dispatch/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/dispatch/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/dispatch/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/dispatch/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/frontend/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/mongodb/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mongodb/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/mysql/tasks/install.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mysql/tasks/install.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/mysql/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/nodejs-app/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/nodejs-app/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/payment/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/payment/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/payment/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/payment/tasks/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roles/ratings/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/ratings/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/redis/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/redis/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/shipping/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/shipping/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/user/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/user/tasks/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +71,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00161" summary="ratings systemd.service updated">
-      <created>1636739308870</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1636739308870</updated>
-    </task>
-    <task id="LOCAL-00162" summary="ratings systemd.service updated">
-      <created>1636739414318</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1636739414318</updated>
     </task>
     <task id="LOCAL-00163" summary="ratings systemd.service updated">
       <created>1636739755414</created>
@@ -397,7 +401,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636829881705</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="frontend systemd.service updated">
+      <created>1636830606724</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1636830606724</updated>
+    </task>
+    <task id="LOCAL-00211" summary="frontend systemd.service updated">
+      <created>1636830847298</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1636830847298</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
