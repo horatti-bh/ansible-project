@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="frontend systemd.service updated">
-      <change beforePath="$PROJECT_DIR$/roles/ratings/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/ratings/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/cart/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/cart/meta/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00180" summary="ratings systemd.service updated">
-      <created>1636820227434</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1636820227434</updated>
     </task>
     <task id="LOCAL-00181" summary="ratings systemd.service updated">
       <created>1636820387096</created>
@@ -397,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636959792976</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="frontend systemd.service updated">
+      <created>1636960369107</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1636960369107</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
