@@ -56,7 +56,7 @@
   lineinfile:
     path: /etc/httpd/conf/httpd.conf
     regexp: '^Listen'
-    line: Listen 7004
+    line: Listen 8080
   notify: Restart Httpd
 
 - name: start the Httpd services
