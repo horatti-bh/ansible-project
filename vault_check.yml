@@ -1,6 +1,8 @@
 - name: check vault
   hosts: all
+  vars:
+    pass: pass123
   tasks:
     - name: print something fromm vault
       debug:
-        msg: hello
+        msg: "{{pass}}"
