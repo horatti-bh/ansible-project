@@ -1,0 +1,6 @@
+- name: check vault
+  hosts: all
+  tasks:
+    - name: print something fromm vault
+      debug:
+        msg: hello
