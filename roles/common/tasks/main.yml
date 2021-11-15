@@ -5,7 +5,7 @@
 
 - name: Copy Rsyslog Config
   template:
-    src: rsyslog.conf.j2
+    src: rsyslog.conf
     dest: /etc/rsyslog.d/10-roboshop.conf
   notify: Restart rsyslog
 
