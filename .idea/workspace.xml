@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="frontend systemd.service updated">
-      <change beforePath="$PROJECT_DIR$/roles/nodejs-app/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/nodejs-app/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/cart/meta/main.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +53,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00183" summary="ratings systemd.service updated">
-      <created>1636820920053</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1636820920053</updated>
-    </task>
-    <task id="LOCAL-00184" summary="ratings systemd.service updated">
-      <created>1636821065862</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1636821065862</updated>
     </task>
     <task id="LOCAL-00185" summary="ratings systemd.service updated">
       <created>1636821198134</created>
@@ -397,7 +383,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636961529440</updated>
     </task>
-    <option name="localTasksCounter" value="232" />
+    <task id="LOCAL-00232" summary="frontend systemd.service updated">
+      <created>1636961864159</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1636961864159</updated>
+    </task>
+    <task id="LOCAL-00233" summary="frontend systemd.service updated">
+      <created>1636961935715</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1636961935715</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
