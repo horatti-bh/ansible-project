@@ -22,7 +22,7 @@
 
 - name: start {{APP_NAME}}  service
   systemd:
-    name: "{{APP_NAME}}"
+    name: "{{APPLICATION_NAME}}"
     state: restarted
     enabled: yes
 
