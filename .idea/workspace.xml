@@ -58,13 +58,6 @@
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
     </task>
-    <task id="LOCAL-00197" summary="dispatch systemd.service updated">
-      <created>1636825682630</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
-      <option name="project" value="LOCAL" />
-      <updated>1636825682630</updated>
-    </task>
     <task id="LOCAL-00198" summary="dispatch systemd.service updated">
       <created>1636825735299</created>
       <option name="number" value="00198" />
@@ -401,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637754639707</updated>
     </task>
-    <option name="localTasksCounter" value="246" />
+    <task id="LOCAL-00246" summary="EC2 instance creation from Ansible">
+      <created>1637755578790</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1637755578790</updated>
+    </task>
+    <option name="localTasksCounter" value="247" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
