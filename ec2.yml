@@ -12,9 +12,9 @@
         name: python-pip
         state: present
 
-    - name: Install boto3
+    - name: Install boto
       pip:
-        name: boto3
+        name: boto
 
     - name: Create an ec2 server
       ec2:
