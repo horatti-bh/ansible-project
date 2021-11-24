@@ -55,6 +55,10 @@
       shell: yum install epel-release-latest-7.noarch.rpm
     - name: Install pre packages
       shell: yum update
+    - name: Install git
+      yum:
+        name: git
+        state: present
 
 - name: run roboshop frontend
   hosts: launched
