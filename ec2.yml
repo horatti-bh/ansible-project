@@ -55,16 +55,16 @@
       yum:
         name: git
         state: present
-    - name: Install pre packages
-      shell: yum update
-    - name: Install wget
-      shell: yum install wget
-    - name: download epel repo
-      shell: wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-    - name: Install epel repo
-      shell: yum install epel-release-latest-7.noarch.rpm
-    - name: Install pre packages
-      shell: yum update
+#    - name: Install pre packages
+#      shell: yum update
+#    - name: Install wget
+#      shell: yum install wget
+#    - name: download epel repo
+#      shell: wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+#    - name: Install epel repo
+#      shell: yum install epel-release-latest-7.noarch.rpm
+#    - name: Install pre packages
+#      shell: yum update
 
 
 - name: run roboshop frontend
