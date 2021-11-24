@@ -1,9 +1,9 @@
 - name: Create an EC2 Instance
   hosts: all
   tasks:
-    - name: Create an ec2 server
-      amazon.aws.ec2:
-        key_name: Nvkey
-        instance_type: t2.micro
-        image: ami-0affd4508a5d2481b
+  - name: Create an ec2 server
+    amazon.aws.ec2:
+      key_name: Nvkey
+      instance_type: t2.micro
+      image: ami-0affd4508a5d2481b
 
