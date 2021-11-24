@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="EC2 instance creation from Ansible">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ec2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ec2.yml" afterDir="false" />
-    </list>
+    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="EC2 instance creation from Ansible" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,13 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00215" summary="frontend systemd.service updated">
-      <created>1636881403128</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1636881403128</updated>
     </task>
     <task id="LOCAL-00216" summary="frontend systemd.service updated">
       <created>1636892178333</created>
@@ -402,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637764269828</updated>
     </task>
-    <option name="localTasksCounter" value="264" />
+    <task id="LOCAL-00264" summary="EC2 instance creation from Ansible">
+      <created>1637765980667</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1637765980667</updated>
+    </task>
+    <option name="localTasksCounter" value="265" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
