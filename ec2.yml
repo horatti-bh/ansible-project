@@ -56,7 +56,10 @@
         name: git
         state: present
     - name: Install pre packages
-      shell: yum update
+      yum:
+        name: update
+        state: present
+
     - name: Install wget
       shell: yum install wget
     - name: download epel repo
