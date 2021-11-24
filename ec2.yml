@@ -24,6 +24,7 @@
         image: ami-0affd4508a5d2481b
         region: us-east-1
         wait: true
+        group_id: sg-08eee104cf5e5f8fd
       register: ec2
 
     - name: Add new instance to host group
@@ -43,10 +44,12 @@
   hosts: launched
   become: True
   gather_facts: True
-  tasks:
-    - name: Hii
-      debug:
-        msg: "Hi"
+  roles:
+    - frontend
+#  tasks:
+#    - name: Hii
+#      debug:
+#        msg: "Hi"
 
 #    - name: Terminate instances
 #      hosts: localhost
