@@ -1,5 +1,6 @@
 - name: Create an EC2 Instance
   hosts: all
+  become: yes
   tasks:
     - name: install pip3
       yum:
