@@ -19,8 +19,8 @@
     - name: Create an ec2 server
       ec2:
         exact_count: 1
-        key_name: Nvkey
+        key_name: devops
         instance_type: t2.micro
-        image: ami-0affd4508a5d2481b
+        image: ami-06553e40eb432837c
         region: us-east-1
 
