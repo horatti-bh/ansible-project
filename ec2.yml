@@ -39,14 +39,14 @@
         timeout: 320
       loop: "{{ ec2.instances }}"
 
-    - name: Configure instance(s)
-      hosts: launched
-      become: True
-      gather_facts: True
-      tasks:
-        - name: Hii
-          debug:
-            msg: "Hi"
+- name: Configure instance(s)
+  hosts: launched
+  become: True
+  gather_facts: True
+  tasks:
+    - name: Hii
+      debug:
+        msg: "Hi"
 
 #    - name: Terminate instances
 #      hosts: localhost
