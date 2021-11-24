@@ -18,14 +18,20 @@
 
     - name: Create an ec2 server
       ec2:
-   #    exact_count: 1
+        exact_count: 1
         key_name: Nvkey
         instance_type: t2.micro
         image: ami-0affd4508a5d2481b
         region: us-east-1
         wait: true
         group_id: sg-08eee104cf5e5f8fd
+        instance_tags:
+          Name: "{{item}}"
+        count_tag: "{{item}}"
       register: ec2
+      loop:
+        - cart
+        - catalogue
 
     - name: Add new instance to host group
       add_host:
