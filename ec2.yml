@@ -23,4 +23,36 @@
         instance_type: t2.micro
         image: ami-0affd4508a5d2481b
         region: us-east-1
+        wait: true
+      register: ec2
+
+    - name: Add new instance to host group
+      add_host:
+        hostname: "{{ item.public_ip }}"
+        groupname: launched
+      loop: "{{ ec2.instances }}"
+
+    - name: Wait for SSH to come up
+      delegate_to: "{{ item.public_dns_name }}"
+      wait_for_connection:
+        delay: 60
+        timeout: 320
+      loop: "{{ ec2.instances }}
+
+    - name: Configure instance(s)
+      hosts: launched
+      become: True
+      gather_facts: True
+      tasks:
+        - name: Hii
+          debug:
+            msg: "Hi"
+
+#    - name: Terminate instances
+#      hosts: localhost
+#      tasks:
+#        - name: Terminate instances that were previously launched
+#          amazon.aws.ec2:
+#            state: 'absent'
+#            instance_ids: '{{ ec2.instance_ids }}'
 

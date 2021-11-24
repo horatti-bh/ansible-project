@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="EC2 instance creation from Ansible" />
+    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="EC2 instance creation from Ansible">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ec2.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,27 +58,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
-    </task>
-    <task id="LOCAL-00199" summary="dispatch systemd.service updated">
-      <created>1636826040696</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1636826040696</updated>
-    </task>
-    <task id="LOCAL-00200" summary="dispatch systemd.service updated">
-      <created>1636826088747</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1636826088747</updated>
-    </task>
-    <task id="LOCAL-00201" summary="dispatch systemd.service updated">
-      <created>1636826423193</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1636826423193</updated>
     </task>
     <task id="LOCAL-00202" summary="dispatch systemd.service updated">
       <created>1636826838335</created>
@@ -399,7 +381,28 @@
       <option name="project" value="LOCAL" />
       <updated>1637756037445</updated>
     </task>
-    <option name="localTasksCounter" value="248" />
+    <task id="LOCAL-00248" summary="EC2 instance creation from Ansible">
+      <created>1637756640265</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1637756640265</updated>
+    </task>
+    <task id="LOCAL-00249" summary="EC2 instance creation from Ansible">
+      <created>1637756657609</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1637756657609</updated>
+    </task>
+    <task id="LOCAL-00250" summary="EC2 instance creation from Ansible">
+      <created>1637756702173</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1637756702173</updated>
+    </task>
+    <option name="localTasksCounter" value="251" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
