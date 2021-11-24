@@ -46,7 +46,7 @@
       tasks:
         - name: Hii
           debug:
-            msg: Hii
+            msg: "{{anisble_fqdn}}"
 
 #    - name: Terminate instances
 #      hosts: localhost
