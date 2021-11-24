@@ -2,17 +2,17 @@
   hosts: all
   become: yes
   tasks:
-    - name: install pip3
+    - name: install pip3 for dependency
       yum:
         name: python3-pip
         state: present
 
-    - name: install pip
+    - name: install pip for dependency
       yum:
         name: python-pip
         state: present
 
-    - name: Install boto
+    - name: Install boto for dependency
       pip:
         name: boto
 
@@ -21,4 +21,5 @@
         key_name: Nvkey
         instance_type: t2.micro
         image: ami-0affd4508a5d2481b
+        region: us-east-1
 
