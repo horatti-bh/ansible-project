@@ -46,7 +46,7 @@
       tasks:
         - name: Hii
           debug:
-            msg: "Hi"
+            msg: "Hii"
 
 #    - name: Terminate instances
 #      hosts: localhost
