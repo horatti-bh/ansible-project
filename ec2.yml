@@ -25,6 +25,7 @@
         region: us-east-1
         wait: true
         group_id: sg-08eee104cf5e5f8fd
+        instance_profile_name: ec2-s3-admin-access-role
         instance_tags:
           Name: "{{item}}"
         count_tag: "{{item}}"
@@ -55,6 +56,27 @@
       yum:
         name: git
         state: present
+    - name: Upgrade all packages
+      yum:
+        name: '*'
+        state: latest
+    - name: Install git
+      yum:
+        name: wget
+        state: present
+    - name: Install the epel repo
+      yum:
+        name: https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+        state: present
+
+    - name: Install epel rpm from a local file
+      yum:
+        name: epel-release-latest-7.noarch.rpm
+        state: present
+    - name: Upgrade all packages
+      yum:
+        name: '*'
+        state: latest
 #    - name: Install pre packages
 #      shell: yum update
 #    - name: Install wget
