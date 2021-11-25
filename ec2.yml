@@ -34,21 +34,27 @@
         - cart
         - catalogue
 
-    - name: Add new instance to host group
-      add_host:
-        hostname: "{{ item.public_ip }}"
-        groupname: launched
-      loop: "{{ ec2.instances }}"
+    - name: debug
+      debug:
+        msg: "{{ item.instances[0] }}"
+      loop: "{{ec2.results}}"
 
-    - name: Wait for SSH to come up
-      delegate_to: "{{ item.public_dns_name }}"
-      wait_for_connection:
-        delay: 60
-        timeout: 320
-      loop: "{{ ec2.instances }}"
+
+#    - name: Add new instance to host group
+#      add_host:
+#        hostname: "{{ item.public_ip }}"
+#        groupname: launched
+#      loop: "{{ ec2.instances }}"
+#
+#    - name: Wait for SSH to come up
+#      delegate_to: "{{ item.public_dns_name }}"
+#      wait_for_connection:
+#        delay: 60
+#        timeout: 320
+#      loop: "{{ ec2.instances }}"
 
 - name: Update new instance
-  hosts: launched
+  hosts: all
   become: True
   gather_facts: True
   tasks:
@@ -90,7 +96,7 @@
 
 
 - name: run roboshop frontend
-  hosts: launched
+  hosts: all
   become: True
   gather_facts: True
   roles:
