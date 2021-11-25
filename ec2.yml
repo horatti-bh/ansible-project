@@ -54,7 +54,7 @@
 #      loop: "{{ ec2.instances }}"
 
 - name: Update new instance
-  hosts: all
+  hosts: cart
   become: True
   gather_facts: True
   tasks:
@@ -96,7 +96,7 @@
 
 
 - name: run roboshop frontend
-  hosts: all
+  hosts: cart
   become: True
   gather_facts: True
   roles:
