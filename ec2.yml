@@ -40,12 +40,14 @@
       loop: "{{ec2.results}}"
 
 
-#    - name: Add new instance to host group
-#      add_host:
-#        hostname: "{{ item.public_ip }}"
-#        groupname: launched
-#      loop: "{{ ec2.instances }}"
-#
+    - name: Add new instance to host group
+      add_host:
+        hostname: "{{ item.public_ip.instance[0].public_ip }}"
+        groupname: cart
+      loop:
+        - { component_name: "cart", public_ip: "{{ ec2.results }}" }
+        - { component_name: "catalogue", public_ip: "{{ ec2.results }}" }
+
 #    - name: Wait for SSH to come up
 #      delegate_to: "{{ item.public_dns_name }}"
 #      wait_for_connection:
@@ -83,6 +85,8 @@
       yum:
         name: '*'
         state: latest
+
+
 #    - name: Install pre packages
 #      shell: yum update
 #    - name: Install wget
@@ -95,12 +99,12 @@
 #      shell: yum update
 
 
-- name: run roboshop frontend
-  hosts: cart
-  become: True
-  gather_facts: True
-  roles:
-    - frontend
+#- name: run roboshop frontend
+#  hosts: cart
+#  become: True
+#  gather_facts: True
+#  roles:
+#    - frontend
 
 #    - name: Terminate instances
 #      hosts: localhost
