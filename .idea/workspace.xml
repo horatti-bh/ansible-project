@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="frontend systemd.service updated">
-      <change beforePath="$PROJECT_DIR$/roles/ratings/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/ratings/defaults/main.yml" afterDir="false" />
+    <list default="true" id="3219a12e-2ced-4179-aeff-f02072651ecd" name="Changes" comment="EC2 instance creation from Ansible">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/frontend/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/frontend/templates/localhost.conf" beforeDir="false" afterPath="$PROJECT_DIR$/roles/frontend/templates/localhost.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +14,14 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="project-code" />
+        <entry key="$PROJECT_DIR$" value="run-indusial" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/setup.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/roles/cart/defaults/main.yml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1z01kmx5ENgyUTSFiM3bzzrFkB6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -30,16 +36,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/roles/user" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\frontend" />
-      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\ frontend" />
-      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\dispatch" />
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\user" />
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\shipping" />
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\payment" />
-      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\ratings" />
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\dispatch" />
+      <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\catalogue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\Desktop\Gowda DevOps Practice youtube\ansible-project\roles\common\templates" />
@@ -54,350 +60,350 @@
       <option name="presentableId" value="Default" />
       <updated>1633270361477</updated>
     </task>
-    <task id="LOCAL-00170" summary="ratings systemd.service updated">
-      <created>1636816008215</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
+    <task id="LOCAL-00221" summary="frontend systemd.service updated">
+      <created>1636893587658</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
       <option name="project" value="LOCAL" />
-      <updated>1636816008216</updated>
+      <updated>1636893587658</updated>
     </task>
-    <task id="LOCAL-00171" summary="ratings systemd.service updated">
-      <created>1636816293244</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
+    <task id="LOCAL-00222" summary="frontend systemd.service updated">
+      <created>1636894535485</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
       <option name="project" value="LOCAL" />
-      <updated>1636816293244</updated>
+      <updated>1636894535485</updated>
     </task>
-    <task id="LOCAL-00172" summary="ratings systemd.service updated">
-      <created>1636816610687</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
+    <task id="LOCAL-00223" summary="frontend systemd.service updated">
+      <created>1636894658576</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
       <option name="project" value="LOCAL" />
-      <updated>1636816610687</updated>
+      <updated>1636894658576</updated>
     </task>
-    <task id="LOCAL-00173" summary="ratings systemd.service updated">
-      <created>1636816783992</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
+    <task id="LOCAL-00224" summary="frontend systemd.service updated">
+      <created>1636894713097</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
       <option name="project" value="LOCAL" />
-      <updated>1636816783992</updated>
+      <updated>1636894713097</updated>
     </task>
-    <task id="LOCAL-00174" summary="ratings systemd.service updated">
-      <created>1636817071716</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
+    <task id="LOCAL-00225" summary="frontend systemd.service updated">
+      <created>1636894767713</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
       <option name="project" value="LOCAL" />
-      <updated>1636817071716</updated>
+      <updated>1636894767713</updated>
     </task>
-    <task id="LOCAL-00175" summary="ratings systemd.service updated">
-      <created>1636817367385</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
+    <task id="LOCAL-00226" summary="frontend systemd.service updated">
+      <created>1636898419738</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
       <option name="project" value="LOCAL" />
-      <updated>1636817367385</updated>
+      <updated>1636898419738</updated>
     </task>
-    <task id="LOCAL-00176" summary="ratings systemd.service updated">
-      <created>1636817669887</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
+    <task id="LOCAL-00227" summary="frontend systemd.service updated">
+      <created>1636898714494</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
       <option name="project" value="LOCAL" />
-      <updated>1636817669887</updated>
+      <updated>1636898714494</updated>
     </task>
-    <task id="LOCAL-00177" summary="ratings systemd.service updated">
-      <created>1636819802765</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
+    <task id="LOCAL-00228" summary="frontend systemd.service updated">
+      <created>1636959792975</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
       <option name="project" value="LOCAL" />
-      <updated>1636819802765</updated>
+      <updated>1636959792976</updated>
     </task>
-    <task id="LOCAL-00178" summary="ratings systemd.service updated">
-      <created>1636820103329</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
+    <task id="LOCAL-00229" summary="frontend systemd.service updated">
+      <created>1636960369107</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
       <option name="project" value="LOCAL" />
-      <updated>1636820103329</updated>
+      <updated>1636960369107</updated>
     </task>
-    <task id="LOCAL-00179" summary="ratings systemd.service updated">
-      <created>1636820210443</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
+    <task id="LOCAL-00230" summary="frontend systemd.service updated">
+      <created>1636961306649</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
       <option name="project" value="LOCAL" />
-      <updated>1636820210443</updated>
+      <updated>1636961306649</updated>
     </task>
-    <task id="LOCAL-00180" summary="ratings systemd.service updated">
-      <created>1636820227434</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
+    <task id="LOCAL-00231" summary="frontend systemd.service updated">
+      <created>1636961529440</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
       <option name="project" value="LOCAL" />
-      <updated>1636820227434</updated>
+      <updated>1636961529440</updated>
     </task>
-    <task id="LOCAL-00181" summary="ratings systemd.service updated">
-      <created>1636820387096</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
+    <task id="LOCAL-00232" summary="frontend systemd.service updated">
+      <created>1636961864159</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
       <option name="project" value="LOCAL" />
-      <updated>1636820387096</updated>
+      <updated>1636961864159</updated>
     </task>
-    <task id="LOCAL-00182" summary="ratings systemd.service updated">
-      <created>1636820758906</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
+    <task id="LOCAL-00233" summary="frontend systemd.service updated">
+      <created>1636961935715</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
       <option name="project" value="LOCAL" />
-      <updated>1636820758907</updated>
+      <updated>1636961935715</updated>
     </task>
-    <task id="LOCAL-00183" summary="ratings systemd.service updated">
-      <created>1636820920053</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
+    <task id="LOCAL-00234" summary="frontend systemd.service updated">
+      <created>1636963820966</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
       <option name="project" value="LOCAL" />
-      <updated>1636820920053</updated>
+      <updated>1636963820967</updated>
     </task>
-    <task id="LOCAL-00184" summary="ratings systemd.service updated">
-      <created>1636821065862</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
+    <task id="LOCAL-00235" summary="frontend systemd.service updated">
+      <created>1636964837036</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
       <option name="project" value="LOCAL" />
-      <updated>1636821065862</updated>
+      <updated>1636964837036</updated>
     </task>
-    <task id="LOCAL-00185" summary="ratings systemd.service updated">
-      <created>1636821198134</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
+    <task id="LOCAL-00236" summary="frontend systemd.service updated">
+      <created>1636965132159</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
       <option name="project" value="LOCAL" />
-      <updated>1636821198134</updated>
+      <updated>1636965132159</updated>
     </task>
-    <task id="LOCAL-00186" summary="ratings systemd.service updated">
-      <created>1636821352235</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
+    <task id="LOCAL-00237" summary="frontend systemd.service updated">
+      <created>1636965608024</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
       <option name="project" value="LOCAL" />
-      <updated>1636821352235</updated>
+      <updated>1636965608024</updated>
     </task>
-    <task id="LOCAL-00187" summary="ratings systemd.service updated">
-      <created>1636821485536</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
+    <task id="LOCAL-00238" summary="EC2 instance creation from Ansible">
+      <created>1637753341660</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
       <option name="project" value="LOCAL" />
-      <updated>1636821485536</updated>
+      <updated>1637753341660</updated>
     </task>
-    <task id="LOCAL-00188" summary="ratings systemd.service updated">
-      <created>1636821971328</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
+    <task id="LOCAL-00239" summary="EC2 instance creation from Ansible">
+      <created>1637753682697</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
       <option name="project" value="LOCAL" />
-      <updated>1636821971329</updated>
+      <updated>1637753682697</updated>
     </task>
-    <task id="LOCAL-00189" summary="ratings systemd.service updated">
-      <created>1636822366326</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
+    <task id="LOCAL-00240" summary="EC2 instance creation from Ansible">
+      <created>1637753807216</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
       <option name="project" value="LOCAL" />
-      <updated>1636822366327</updated>
+      <updated>1637753807216</updated>
     </task>
-    <task id="LOCAL-00190" summary="ratings systemd.service updated">
-      <created>1636822449072</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
+    <task id="LOCAL-00241" summary="EC2 instance creation from Ansible">
+      <created>1637754171339</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
       <option name="project" value="LOCAL" />
-      <updated>1636822449072</updated>
+      <updated>1637754171339</updated>
     </task>
-    <task id="LOCAL-00191" summary="ratings systemd.service updated">
-      <created>1636822582603</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
+    <task id="LOCAL-00242" summary="EC2 instance creation from Ansible">
+      <created>1637754268232</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
       <option name="project" value="LOCAL" />
-      <updated>1636822582603</updated>
+      <updated>1637754268232</updated>
     </task>
-    <task id="LOCAL-00192" summary="payment systemd.service updated">
-      <created>1636823666090</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
+    <task id="LOCAL-00243" summary="EC2 instance creation from Ansible">
+      <created>1637754335096</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
       <option name="project" value="LOCAL" />
-      <updated>1636823666090</updated>
+      <updated>1637754335096</updated>
     </task>
-    <task id="LOCAL-00193" summary="payment systemd.service updated">
-      <created>1636824238258</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
+    <task id="LOCAL-00244" summary="EC2 instance creation from Ansible">
+      <created>1637754551626</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
       <option name="project" value="LOCAL" />
-      <updated>1636824238258</updated>
+      <updated>1637754551626</updated>
     </task>
-    <task id="LOCAL-00194" summary="dispatch systemd.service updated">
-      <created>1636824721224</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
+    <task id="LOCAL-00245" summary="EC2 instance creation from Ansible">
+      <created>1637754639707</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
       <option name="project" value="LOCAL" />
-      <updated>1636824721225</updated>
+      <updated>1637754639707</updated>
     </task>
-    <task id="LOCAL-00195" summary="dispatch systemd.service updated">
-      <created>1636824778027</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
+    <task id="LOCAL-00246" summary="EC2 instance creation from Ansible">
+      <created>1637755578790</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
       <option name="project" value="LOCAL" />
-      <updated>1636824778028</updated>
+      <updated>1637755578790</updated>
     </task>
-    <task id="LOCAL-00196" summary="dispatch systemd.service updated">
-      <created>1636824820313</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
+    <task id="LOCAL-00247" summary="EC2 instance creation from Ansible">
+      <created>1637756037445</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
       <option name="project" value="LOCAL" />
-      <updated>1636824820313</updated>
+      <updated>1637756037445</updated>
     </task>
-    <task id="LOCAL-00197" summary="dispatch systemd.service updated">
-      <created>1636825682630</created>
-      <option name="number" value="00197" />
-      <option name="presentableId" value="LOCAL-00197" />
+    <task id="LOCAL-00248" summary="EC2 instance creation from Ansible">
+      <created>1637756640265</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
       <option name="project" value="LOCAL" />
-      <updated>1636825682630</updated>
+      <updated>1637756640265</updated>
     </task>
-    <task id="LOCAL-00198" summary="dispatch systemd.service updated">
-      <created>1636825735299</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
+    <task id="LOCAL-00249" summary="EC2 instance creation from Ansible">
+      <created>1637756657609</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
       <option name="project" value="LOCAL" />
-      <updated>1636825735299</updated>
+      <updated>1637756657609</updated>
     </task>
-    <task id="LOCAL-00199" summary="dispatch systemd.service updated">
-      <created>1636826040696</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
+    <task id="LOCAL-00250" summary="EC2 instance creation from Ansible">
+      <created>1637756702173</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
       <option name="project" value="LOCAL" />
-      <updated>1636826040696</updated>
+      <updated>1637756702173</updated>
     </task>
-    <task id="LOCAL-00200" summary="dispatch systemd.service updated">
-      <created>1636826088747</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
+    <task id="LOCAL-00251" summary="EC2 instance creation from Ansible">
+      <created>1637758853629</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
       <option name="project" value="LOCAL" />
-      <updated>1636826088747</updated>
+      <updated>1637758853629</updated>
     </task>
-    <task id="LOCAL-00201" summary="dispatch systemd.service updated">
-      <created>1636826423193</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
+    <task id="LOCAL-00252" summary="EC2 instance creation from Ansible">
+      <created>1637758940675</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
       <option name="project" value="LOCAL" />
-      <updated>1636826423193</updated>
+      <updated>1637758940675</updated>
     </task>
-    <task id="LOCAL-00202" summary="dispatch systemd.service updated">
-      <created>1636826838335</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
+    <task id="LOCAL-00253" summary="EC2 instance creation from Ansible">
+      <created>1637758974243</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
       <option name="project" value="LOCAL" />
-      <updated>1636826838335</updated>
+      <updated>1637758974243</updated>
     </task>
-    <task id="LOCAL-00203" summary="frontend systemd.service updated">
-      <created>1636827001007</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
+    <task id="LOCAL-00254" summary="EC2 instance creation from Ansible">
+      <created>1637759119110</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
       <option name="project" value="LOCAL" />
-      <updated>1636827001007</updated>
+      <updated>1637759119110</updated>
     </task>
-    <task id="LOCAL-00204" summary="frontend systemd.service updated">
-      <created>1636828114201</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
+    <task id="LOCAL-00255" summary="EC2 instance creation from Ansible">
+      <created>1637759227321</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
       <option name="project" value="LOCAL" />
-      <updated>1636828114201</updated>
+      <updated>1637759227321</updated>
     </task>
-    <task id="LOCAL-00205" summary="frontend systemd.service updated">
-      <created>1636828545209</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
+    <task id="LOCAL-00256" summary="EC2 instance creation from Ansible">
+      <created>1637759379223</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
       <option name="project" value="LOCAL" />
-      <updated>1636828545209</updated>
+      <updated>1637759379223</updated>
     </task>
-    <task id="LOCAL-00206" summary="frontend systemd.service updated">
-      <created>1636828954937</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
+    <task id="LOCAL-00257" summary="EC2 instance creation from Ansible">
+      <created>1637760315633</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
       <option name="project" value="LOCAL" />
-      <updated>1636828954937</updated>
+      <updated>1637760315633</updated>
     </task>
-    <task id="LOCAL-00207" summary="frontend systemd.service updated">
-      <created>1636829079536</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
+    <task id="LOCAL-00258" summary="EC2 instance creation from Ansible">
+      <created>1637761156975</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
       <option name="project" value="LOCAL" />
-      <updated>1636829079536</updated>
+      <updated>1637761156975</updated>
     </task>
-    <task id="LOCAL-00208" summary="frontend systemd.service updated">
-      <created>1636829489183</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
+    <task id="LOCAL-00259" summary="EC2 instance creation from Ansible">
+      <created>1637762027325</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
       <option name="project" value="LOCAL" />
-      <updated>1636829489183</updated>
+      <updated>1637762027325</updated>
     </task>
-    <task id="LOCAL-00209" summary="frontend systemd.service updated">
-      <created>1636829881705</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
+    <task id="LOCAL-00260" summary="EC2 instance creation from Ansible">
+      <created>1637762058646</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
       <option name="project" value="LOCAL" />
-      <updated>1636829881705</updated>
+      <updated>1637762058646</updated>
     </task>
-    <task id="LOCAL-00210" summary="frontend systemd.service updated">
-      <created>1636830606724</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
+    <task id="LOCAL-00261" summary="EC2 instance creation from Ansible">
+      <created>1637763860785</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
       <option name="project" value="LOCAL" />
-      <updated>1636830606724</updated>
+      <updated>1637763860785</updated>
     </task>
-    <task id="LOCAL-00211" summary="frontend systemd.service updated">
-      <created>1636830847298</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
+    <task id="LOCAL-00262" summary="EC2 instance creation from Ansible">
+      <created>1637763958525</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
       <option name="project" value="LOCAL" />
-      <updated>1636830847298</updated>
+      <updated>1637763958525</updated>
     </task>
-    <task id="LOCAL-00212" summary="frontend systemd.service updated">
-      <created>1636876834490</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
+    <task id="LOCAL-00263" summary="EC2 instance creation from Ansible">
+      <created>1637764269828</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
       <option name="project" value="LOCAL" />
-      <updated>1636876834491</updated>
+      <updated>1637764269828</updated>
     </task>
-    <task id="LOCAL-00213" summary="frontend systemd.service updated">
-      <created>1636880210855</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
+    <task id="LOCAL-00264" summary="EC2 instance creation from Ansible">
+      <created>1637765980667</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
       <option name="project" value="LOCAL" />
-      <updated>1636880210855</updated>
+      <updated>1637765980667</updated>
     </task>
-    <task id="LOCAL-00214" summary="frontend systemd.service updated">
-      <created>1636880535217</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
+    <task id="LOCAL-00265" summary="EC2 instance creation from Ansible">
+      <created>1637766337738</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
       <option name="project" value="LOCAL" />
-      <updated>1636880535217</updated>
+      <updated>1637766337738</updated>
     </task>
-    <task id="LOCAL-00215" summary="frontend systemd.service updated">
-      <created>1636881403128</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
+    <task id="LOCAL-00266" summary="EC2 instance creation from Ansible">
+      <created>1637820569372</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
       <option name="project" value="LOCAL" />
-      <updated>1636881403128</updated>
+      <updated>1637820569373</updated>
     </task>
-    <task id="LOCAL-00216" summary="frontend systemd.service updated">
-      <created>1636892178333</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
+    <task id="LOCAL-00267" summary="EC2 instance creation from Ansible">
+      <created>1637821166901</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
       <option name="project" value="LOCAL" />
-      <updated>1636892178334</updated>
+      <updated>1637821166901</updated>
     </task>
-    <task id="LOCAL-00217" summary="frontend systemd.service updated">
-      <created>1636892992737</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
+    <task id="LOCAL-00268" summary="EC2 instance creation from Ansible">
+      <created>1637821573774</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
       <option name="project" value="LOCAL" />
-      <updated>1636892992737</updated>
+      <updated>1637821573774</updated>
     </task>
-    <task id="LOCAL-00218" summary="frontend systemd.service updated">
-      <created>1636893252320</created>
-      <option name="number" value="00218" />
-      <option name="presentableId" value="LOCAL-00218" />
+    <task id="LOCAL-00269" summary="EC2 instance creation from Ansible">
+      <created>1637845415474</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
       <option name="project" value="LOCAL" />
-      <updated>1636893252320</updated>
+      <updated>1637845415474</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <option name="localTasksCounter" value="270" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -442,6 +448,7 @@
     <MESSAGE value="payment systemd.service updated" />
     <MESSAGE value="dispatch systemd.service updated" />
     <MESSAGE value="frontend systemd.service updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="frontend systemd.service updated" />
+    <MESSAGE value="EC2 instance creation from Ansible" />
+    <option name="LAST_COMMIT_MESSAGE" value="EC2 instance creation from Ansible" />
   </component>
 </project>
